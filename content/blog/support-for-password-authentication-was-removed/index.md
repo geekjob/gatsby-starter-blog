@@ -1,7 +1,7 @@
 ---
 title: "Support for password authentication was removed"
 date: "2021-08-15T12:12:12.00Z"
-description: "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead."
+description: "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead"
 ---
 
 
