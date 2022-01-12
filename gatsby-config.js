@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Geekjob Tech - Full Stack CTO Stories`,
+    title: `Full Stack CTO Stories`,
     author: {
       name: `Alexander Mayorov`,
       summary: `Full Stack CTO`,
