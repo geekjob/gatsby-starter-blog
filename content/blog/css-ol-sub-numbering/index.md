@@ -21,3 +21,4 @@ ol > li:before {
 
 В итоге получаем такой вот документ:
 
+![geekjob](img-01.png?raw=true)
