@@ -9,7 +9,7 @@ foreach ($data['db'][0]['data']['posts'] as $post)
 {
     if ($post['status'] != 'published') continue;
     if ($post['slug'] == 'js-emoji') continue;
-    if ($post['slug'] == 'untiled-2') continue;
+    if ($post['slug'] == 'untitled-2') continue;
 
     $record = [
         'text' => $post['html'],
