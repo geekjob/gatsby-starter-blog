@@ -1,6 +1,6 @@
 ---
 title: "Библиотека Natasha"
-date: "2018-07-12T14:34:53.000Z"
+date: "2018-07-12T14:34:53.00Z"
 description: "ImportError: cannot import name ‘TagMorphTokenizer’ from ‘yargy.tokenizer’ В своих проектах ( New.HR [https://newhr.ru], GeekJob"
 ---
 

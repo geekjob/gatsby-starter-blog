@@ -1,6 +1,6 @@
 ---
 title: "Python Switch operator"
-date: "2020-07-07T09:51:18.000Z"
+date: "2020-07-07T09:51:18.00Z"
 description: "Полный гайд по реализации switch-case в питоне В Python нет привычного оператора Switch как в других языках и после Java, JavaSc"
 ---
 

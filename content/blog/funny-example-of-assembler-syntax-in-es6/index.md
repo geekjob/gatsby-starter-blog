@@ -1,6 +1,6 @@
 ---
 title: "Funny example of Assembler syntax in ES6"
-date: "2016-02-09T03:26:29.000Z"
+date: "2016-02-09T03:26:29.00Z"
 description: "It’s joke, but it show power of tagged template strings mov   `ax` `2` mov   `dx` `3` add   `ax` `dx` print `ax`  //// var mem ="
 ---
 

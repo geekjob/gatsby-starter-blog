@@ -1,6 +1,6 @@
 ---
 title: "OSXFUSE file system is not available"
-date: "2017-09-28T20:00:08.000Z"
+date: "2017-09-28T20:00:08.00Z"
 description: "On Mac OS High Sierra. Or not?    Если вдруг вы пользовались SSHFS на маке и обновились до последней версии, а она реально хорош"
 ---
 

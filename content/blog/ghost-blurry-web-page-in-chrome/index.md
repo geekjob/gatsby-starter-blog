@@ -1,6 +1,6 @@
 ---
 title: "Ghost: Blurry web page in Chrome"
-date: "2019-03-05T17:34:03.000Z"
+date: "2019-03-05T17:34:03.00Z"
 description: "Bug with enable experimental web platform features У нас есть блог blog.new.hr [https://blog.newhr.ru] и он работает (успешно) н"
 ---
 

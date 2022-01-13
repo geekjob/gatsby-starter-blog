@@ -1,6 +1,6 @@
 ---
 title: "Support for password authentication was removed"
-date: "2021-08-15T17:28:41.000Z"
+date: "2021-08-15T17:28:41.00Z"
 description: "Если вы работаете с Github и вдруг увидели такое сообщение:  > Support for password authentication was removed on August 13, 202"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Работа со строками в Bash"
-date: "2016-01-09T18:40:50.000Z"
+date: "2016-01-09T18:40:50.00Z"
 description: "Это памятка, т. к. периодически забываю.  Извлечение подстроки ${string:position} — с position до конца ${string:position:length"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Проблемы sudo mc на macOS Big Sur"
-date: "2021-07-27T21:02:58.000Z"
+date: "2021-07-27T21:02:58.00Z"
 description: "На macOS Big Sur у меня появились проблемы при запуске Midnight Commander под рутом. С первого раза не запускается, выдавая ошиб"
 ---
 

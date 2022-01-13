@@ -1,6 +1,6 @@
 ---
 title: "ASP.NET membership password hashing reimplemented in PHP"
-date: "2018-08-02T18:49:42.000Z"
+date: "2018-08-02T18:49:42.00Z"
 description: "Будни разработчика Сейчас у меня стадия активной переработки проекта анонимного поиска работы — GeekJob.ru [https://geekjob.ru] "
 ---
 

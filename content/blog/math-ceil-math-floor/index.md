@@ -1,6 +1,6 @@
 ---
 title: "Math.ceil & Math.floor"
-date: "2018-02-07T14:58:50.000Z"
+date: "2018-02-07T14:58:50.00Z"
 description: "Tips & Tricks in JS    Сегодня не про задачки, а про трюки в JS. Пример, как можно сократить запись Math.ceil и Math.floor. Не т"
 ---
 

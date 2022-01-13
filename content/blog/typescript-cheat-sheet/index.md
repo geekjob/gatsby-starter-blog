@@ -1,6 +1,6 @@
 ---
 title: "TypeScript Cheat Sheet"
-date: "2016-07-18T14:50:42.000Z"
+date: "2016-07-18T14:50:42.00Z"
 description: "https://github.com/frontdevops/typescript-cheat-sheet"
 ---
 

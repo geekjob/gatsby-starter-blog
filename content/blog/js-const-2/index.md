@@ -1,6 +1,6 @@
 ---
 title: "Еще кейсы для const в ES6+"
-date: "2018-04-05T21:43:42.000Z"
+date: "2018-04-05T21:43:42.00Z"
 description: "Небольшое дополнение В продолжении статьи про const [https://medium.com/@frontman/const-%D0%B2-js-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5"
 ---
 

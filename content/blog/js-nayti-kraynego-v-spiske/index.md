@@ -1,6 +1,6 @@
 ---
 title: "Найти крайнего в списке"
-date: "2018-02-14T02:18:01.000Z"
+date: "2018-02-14T02:18:01.00Z"
 description: "Last in list. Hacks and tricks with Array in JS    Сегодня пара слов про работу с массивами в JS. В целом работа с массивами (ak"
 ---
 

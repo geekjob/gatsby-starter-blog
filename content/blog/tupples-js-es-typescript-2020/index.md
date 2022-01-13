@@ -1,6 +1,6 @@
 ---
 title: "Кортежи в JS/ES и TypeScript  в 2020"
-date: "2020-07-01T10:05:35.000Z"
+date: "2020-07-01T10:05:35.00Z"
 description: "Record & Tuple proposal and TypeScript 4.0   Относительно недавно (в мае) Робин Рикард и Рик Баттон сделали предложение  «Record"
 ---
 

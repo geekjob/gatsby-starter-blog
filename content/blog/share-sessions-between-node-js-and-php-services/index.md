@@ -1,6 +1,6 @@
 ---
 title: "Share sessions between Node.js and PHP services"
-date: "2019-02-27T12:16:28.000Z"
+date: "2019-02-27T12:16:28.00Z"
 description: "PHP session handler compatible with Node express-session  Compatible PHP session handler  В современном мире никого не удивить с"
 ---
 

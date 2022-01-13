@@ -1,6 +1,6 @@
 ---
 title: "Russian AI Cup 2019"
-date: "2019-12-09T02:00:54.000Z"
+date: "2019-12-09T02:00:54.00Z"
 description: "На Node.js Наконец-то настал этот долгожданный день. Теперь в Russian AI Cup [https://russianaicup.ru/p/packs] можно использоват"
 ---
 

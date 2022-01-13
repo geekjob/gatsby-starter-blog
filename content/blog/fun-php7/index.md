@@ -1,6 +1,6 @@
 ---
 title: "FunPHP#7"
-date: "2019-05-22T15:47:00.000Z"
+date: "2019-05-22T15:47:00.00Z"
 description: "Поговорим про PHP7 Относительно недавно писал про Паблика Морозова [https://medium.com/@frontman/php-access-to-private-and-prote"
 ---
 

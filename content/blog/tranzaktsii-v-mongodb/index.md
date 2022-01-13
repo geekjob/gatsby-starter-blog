@@ -1,6 +1,6 @@
 ---
 title: "Транзакции в MongoDB"
-date: "2020-05-24T22:09:30.000Z"
+date: "2020-05-24T22:09:30.00Z"
 description: "Особенности работы на примере PHP В MongoDB еще в версии 4.2 добавили честные ACID транзакции [https://ru.wikipedia.org/wiki/ACI"
 ---
 

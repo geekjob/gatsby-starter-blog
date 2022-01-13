@@ -1,6 +1,6 @@
 ---
 title: "Fun PHP #1"
-date: "2018-01-19T18:09:06.000Z"
+date: "2018-01-19T18:09:06.00Z"
 description: "Особенности поведения    Сегодня говорим про PHP. Задачка первая. Дан код:  <?php  class HR { public $foo = 1; }  $Obj1 = New HR"
 ---
 

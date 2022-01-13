@@ -1,6 +1,6 @@
 ---
 title: "Самый простой CSS reset"
-date: "2016-11-03T14:45:54.000Z"
+date: "2016-11-03T14:45:54.00Z"
 description: "Для современных браузеров * { all: unset } head { display: none }"
 ---
 

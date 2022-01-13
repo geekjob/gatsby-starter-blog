@@ -1,6 +1,6 @@
 ---
 title: "Создаем иммутабельные объекты на TypeScript"
-date: "2018-04-08T02:38:32.000Z"
+date: "2018-04-08T02:38:32.00Z"
 description: "Readonly, readonly, const    Астрологи объявили неделю immutable & const в JS/TS. Продолжая тему иммутабельности в JS [https://m"
 ---
 

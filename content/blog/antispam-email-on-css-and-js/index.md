@@ -1,6 +1,6 @@
 ---
 title: "Защита Email от Spamer’ов"
-date: "2019-12-03T20:01:17.000Z"
+date: "2019-12-03T20:01:17.00Z"
 description: "Update В предыдущем посте я показал как прятать имейлы от спамеров на чистом CSS:  Защита Email от Spamer’ов на CSSNojs, only CS"
 ---
 

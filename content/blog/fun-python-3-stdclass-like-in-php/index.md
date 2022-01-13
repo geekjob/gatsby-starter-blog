@@ -1,6 +1,6 @@
 ---
 title: "Fun Python #3: stdClass like in PHP"
-date: "2020-01-12T18:32:52.000Z"
+date: "2020-01-12T18:32:52.00Z"
 description: "Сегодня я узнал… Я тут недавно сделал пост, в котором показал как можно делать dotted dict и подумал что это аналог stdClass в P"
 ---
 

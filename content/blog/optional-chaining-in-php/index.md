@@ -1,6 +1,6 @@
 ---
 title: "Optional Chaining in PHP"
-date: "2020-06-29T11:04:09.000Z"
+date: "2020-06-29T11:04:09.00Z"
 description: "Есть ли возможность? В JS есть такая штука как Optional Chaining. Про эту фичу есть в заметке  JS/ES2020: Optional Chainingand N"
 ---
 

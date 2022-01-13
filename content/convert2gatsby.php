@@ -22,7 +22,7 @@ foreach ($data['db'][0]['data']['posts'] as $post)
             ),
             0, 128
         ),
-        'date' => $post['published_at'],
+        'date' => preg_replace('~\.000Z$~i', '.00Z', $post['published_at']),
         'title' => mb_substr(
             str_replace('"', '',
                 str_replace(

@@ -1,6 +1,6 @@
 ---
 title: "Эмуляция различных медиа выражений в Chrome и отладка темного режима"
-date: "2020-06-27T09:22:44.000Z"
+date: "2020-06-27T09:22:44.00Z"
 description: "Emulate media queries in Chrome, for example: prefers-color-scheme Небольшая заметка-памятка, как отлаживать разные медиа выраже"
 ---
 

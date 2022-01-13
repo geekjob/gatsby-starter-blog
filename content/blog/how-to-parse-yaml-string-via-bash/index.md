@@ -1,6 +1,6 @@
 ---
 title: "How to parse YAML string via Bash"
-date: "2016-07-18T15:24:49.000Z"
+date: "2016-07-18T15:24:49.00Z"
 description: "If you like parse YAML via command line (bash or other), you can write script on JS for Nodejs, Ruby, PHP or other… Or you can u"
 ---
 

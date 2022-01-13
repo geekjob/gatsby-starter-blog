@@ -1,6 +1,6 @@
 ---
 title: "FunPHP#5: access to private and protected"
-date: "2019-03-04T04:01:16.000Z"
+date: "2019-03-04T04:01:16.00Z"
 description: "Паблик Морозов на собеседовании PHP protected & private property hacker  На собеседованиях каких вопросов только не встретишь. М"
 ---
 

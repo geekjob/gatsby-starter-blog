@@ -1,6 +1,6 @@
 ---
 title: "JS/ES: Top-Level await"
-date: "2020-05-24T14:55:52.000Z"
+date: "2020-05-24T14:55:52.00Z"
 description: "Experimental support for 'Top-Level Await' just landed in Node.js core and Chrome Dev Tools, and Safari Web Inspector! Да да, в "
 ---
 

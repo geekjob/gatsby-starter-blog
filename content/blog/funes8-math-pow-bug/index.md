@@ -1,6 +1,6 @@
 ---
 title: "FunES#8: Math.pow не равно**"
-date: "2019-02-22T00:51:47.000Z"
+date: "2019-02-22T00:51:47.00Z"
 description: "JavaScript зарисовки в стиле WTF Browsers    В JS есть оператор возведения в степень. Появился он в JavaScript относительно неда"
 ---
 

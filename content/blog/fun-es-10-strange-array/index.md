@@ -1,6 +1,6 @@
 ---
 title: "FunES#10: Странный массив"
-date: "2019-05-24T14:34:08.000Z"
+date: "2019-05-24T14:34:08.00Z"
 description: "Точнее все ок, магии нет Буквально недавно на Reddit [https://www.reddit.com/r/javascript/comments/brjxab/nan_can_be_used_as_an_"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Using Curl as Wget"
-date: "2016-08-17T12:47:27.000Z"
+date: "2016-08-17T12:47:27.00Z"
 description: "Use curl instead wget in Dockerfile Often I see in some Dockerfile installation wget in order to download any files. See that fo"
 ---
 

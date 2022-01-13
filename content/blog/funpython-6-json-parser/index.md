@@ -1,6 +1,6 @@
 ---
 title: "FunPython #6: Простой JSON парсер без библиотек"
-date: "2020-01-28T14:32:58.000Z"
+date: "2020-01-28T14:32:58.00Z"
 description: "Eval JSON string in Python Допустим есть некий JSON:  json_str = '{someInt:42,someTrue:true,someNull: null,someFalse:false,someS"
 ---
 
