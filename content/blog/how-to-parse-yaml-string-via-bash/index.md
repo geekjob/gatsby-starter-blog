@@ -23,7 +23,7 @@ awk -F$fs '{
 }'
 
 # Usage
-# yaml_bash_parser.sh any_config.yml "config_"</code></pre><p>This is great, but is it intended to work only with indentations made of two spaces. It’s not problem, you can change this script. But you can do all this even easier and better.</p>
+# yaml_bash_parser.sh any_config.yml "config_"</code></pre><!--kg-card-begin: html--><p>This is great, but is it intended to work only with indentations made of two spaces. It’s not problem, you can change this script. But you can do all this even easier and better.</p>
 <h4>First step: convert YAML to JSON</h4>
 <p>Install Ruby and add to <em>.bashrc</em> code:</p>
 <pre>alias yaml2json="ruby -ryaml -rjson -e 'puts JSON.pretty_generate(YAML.load(ARGF))'"</pre>
@@ -58,5 +58,5 @@ awk -F$fs '{
 <p>Write pipe line:</p>
 <pre>cat anyfile.yaml | yaml2json | jq 'your query'</pre>
 <p>or write bash script and call it with arguments.</p>
-
+<!--kg-card-end: html-->
 

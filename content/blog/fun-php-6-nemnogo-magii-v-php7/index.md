@@ -4,7 +4,7 @@ date: "2019-05-20T17:41:26.00Z"
 description: "UPD базы знаний Люблю я всякую магию. Люблю фокусы, умею их показывать. И в программировании мне так же нравятся фокусы. Не раз "
 ---
 
-<h4>UPD базы знаний</h4>
+<!--kg-card-begin: html--><h4>UPD базы знаний</h4>
 
 <p>Люблю я всякую магию. Люблю фокусы, умею их показывать. И в программировании мне так же нравятся фокусы. Не раз уже писал про фокусы в JS, реже в PHP. А ведь PHP это язык с которого началась моя любовь к фокусам еще в далеком 2009 году, когда я еще тусил на <a href="https://phpclub.ru/talk/" target="_blank" rel="noopener noreferrer">PHPClub</a> ?</p>
 <p>Еще в далеком 2015 году на хабре я писал статью <a href="https://habr.com/ru/post/259865/" title="https://habr.com/ru/post/259865/" target="_blank" rel="noopener noreferrer">Безумный PHP. Фьюри код</a><strong>. </strong>Захотелось немного обновить пост, показать новые (может быть для кого-то уже не новые) трюки, поправить старые…</p>
@@ -23,5 +23,5 @@ description: "UPD базы знаний Люблю я всякую магию. 
 <pre><strong>use</strong> <strong>const</strong> <strong>NAN</strong> <strong>as</strong> <strong>true</strong>;</pre>
 <pre>var_dump(<strong>true</strong> === <strong>true</strong>); // false<br>var_dump(<strong>true</strong> == <strong>true</strong>);  // false<br>var_dump(<strong>true</strong> == <strong>false</strong>); // false<br>var_dump(<strong>true</strong> == <strong>NAN</strong>);   // false</pre>
 <p>Вот это будет реально отрыв башки, так как NAN != NAN.</p>
-
+<!--kg-card-end: html-->
 

@@ -4,7 +4,7 @@ date: "2016-12-24T12:59:15.00Z"
 description: "Трюки с ES2016 Расширение объекта const config = { ...defaults, ...userSettings }  Клонирование объекта const clone = { ...sourc"
 ---
 
-<h4>Трюки с ES2016</h4>
+<!--kg-card-begin: html--><h4>Трюки с ES2016</h4>
 <h4>Расширение объекта</h4>
 <pre><strong>const </strong>config = { ...defaults, ...userSettings }</pre>
 <h4>Клонирование объекта</h4>
@@ -17,5 +17,5 @@ description: "Трюки с ES2016 Расширение объекта const co
 <pre><strong>[...123456..toString()]</strong>.map(s =&gt; s.someDo()).map(parseFloat)</pre>
 <p>Если применить спред оператор к итерируемому объекту (а строка — это Array-like object), то можно быстро разбить строку без использования split()</p>
 
-
+<!--kg-card-end: html-->
 

@@ -12,5 +12,7 @@ src="/parts/somepart.html"&gt;&lt;/iframe&gt;
 &lt;iframe
 onload="this.before(...this.contentDocument.body.children);this.remove()"
 src="hello2.htm"&gt;&lt;/iframe&gt;
-</code></pre>
+</code></pre><!--kg-card-begin: html--><figure>
+<img data-width="1786" data-height="690" src="https://cdn-images-1.medium.com/max/800/1*TTZZEPO-EXHcHd0zsBBD3A.jpeg">
+</figure><!--kg-card-end: html-->
 

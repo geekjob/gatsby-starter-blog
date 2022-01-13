@@ -4,8 +4,7 @@ date: "2020-01-04T23:49:51.00Z"
 description: "Пишем свой Flask И так, это продолжение темы про то, как изучить Python за выходные (новогодние выходные, если что).  Выучить Py"
 ---
 
-<h2 id="-flask">Пишем свой Flask</h2><p>И так, это продолжение темы про то, как изучить Python за выходные (новогодние выходные, если что).</p>- <a class="kg-bookmark-container" href="/viuchit-python-za-vihodnie/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Выучить Python за выходные</div><div class="kg-bookmark-description">Мой путь от нуля до адекватного Junior Python DeveloperВсем привет! С новым 2020 годом и вот это все… Новогодние каникулы хороши тем,что есть легальная индульгенция на то, что можно делать то что нравится вопрекиприоритетам, разрешить себе забыть про работу и заняться чем-то интересным. Я решил …</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Geekjob Tech</span><span class="kg-bookmark-publisher">Александр Майоров</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://tech.geekjob.ru/content/images/2020/04/1_esKzN_-aJy4N1hpXfNgasA.png"></div></a> <br/>
-<style>
+<h2 id="-flask">Пишем свой Flask</h2><p>И так, это продолжение темы про то, как изучить Python за выходные (новогодние выходные, если что).</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="/viuchit-python-za-vihodnie/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Выучить Python за выходные</div><div class="kg-bookmark-description">Мой путь от нуля до адекватного Junior Python DeveloperВсем привет! С новым 2020 годом и вот это все… Новогодние каникулы хороши тем,что есть легальная индульгенция на то, что можно делать то что нравится вопрекиприоритетам, разрешить себе забыть про работу и заняться чем-то интересным. Я решил …</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Geekjob Tech</span><span class="kg-bookmark-publisher">Александр Майоров</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://tech.geekjob.ru/content/images/2020/04/1_esKzN_-aJy4N1hpXfNgasA.png"></div></a></figure><!--kg-card-begin: html--><style>
     pre {
         background: white !important;
         color: #402d8b !important;
@@ -68,5 +67,5 @@ description: "Пишем свой Flask И так, это продолжение
 <p>Ну вот примерно как-то так работает Flask. Конечно его возможности сильно богаче, я только показал утрированный пример. В качестве шаблонизатора надо бы прикрутить Jinja2. Реализовать логику блюпринтов… Ну и много чего еще сделать, на самом деле. Но у меня нет сил и желания все разжевывать досконально. Для обучения в самый раз. Если было полезно — ставьте лайк.</p>
 <h4>Итого</h4>
 <p>Мне понравился Python как язык, особенно возможность перегрузки операторов. Много математических функций из коробки, ну и сам язык имеет свои приятные черты. Далее по плану чисто ради фана пройти где-нибудь собеседование, понять на что я тяну ?</p>
-
+<!--kg-card-end: html-->
 

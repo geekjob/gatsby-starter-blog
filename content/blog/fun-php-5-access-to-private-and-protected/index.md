@@ -4,8 +4,14 @@ date: "2019-03-04T04:01:16.00Z"
 description: "Паблик Морозов на собеседовании PHP protected & private property hacker  На собеседованиях каких вопросов только не встретишь. М"
 ---
 
-<h4>Паблик Морозов на собеседовании</h4>
-
+<!--kg-card-begin: html--><h4>Паблик Морозов на собеседовании</h4>
+<figure class="wp-caption">
+<p><img data-width="1424" data-height="608" src="https://cdn-images-1.medium.com/max/800/1*Rk9Iumybng_BNEgim47tuA.jpeg"><figcaption class="wp-caption-text">PHP protected &amp; private property hacker</figcaption></figure>
+<p>На собеседованиях каких вопросов только не встретишь. Матерые волки, собеседуя php-гуру, могут спрашивать разные нетривиальные вещи. Одна из таких вещей: паттерн “Паблик Морозов”.</p>
+<blockquote><p>Паблик Морозов — антипаттерн, позволяющий получить доступ к закрытым полям класса.</p></blockquote>
+<p>Встречаются как-то два программиста. Один — тимлид, другой php-гуру, оба с опытом дохреналет (писали на PHP, когда его еще не было). Начинается беседа, аки битва двух богатырей. Один задает вопросы коварнее другого. Другой парирует и отбивается, как ниндзя.</p>
+<figure class="wp-caption">
+<p><img data-width="679" data-height="467" src="https://cdn-images-1.medium.com/max/800/1*qfTCqjTko4Dj5SQz-0mPnw.jpeg"><figcaption class="wp-caption-text">PHP ninja job interview</figcaption></figure>
 <p>Вопрос: бла бла, ООП… Бла бла бла, инкапсуляция, бла бла бла… А можно ли получить значение из private поля экземпляра класса?</p>
 <p>Конечно можно, для этого есть Reflection API. Допустим есть класс:</p>
 <pre><strong>class</strong> PublicMorozov {<br><strong>public</strong> $woo = 1;<br><strong>private</strong> $foo = 2;<br><strong>protected</strong> $bar = 3;<br><strong>public</strong> <strong>function</strong> foo() { <strong>return</strong> $this-&gt;foo; }<br>}</pre>
@@ -54,5 +60,5 @@ description: "Паблик Морозов на собеседовании PHP pr
 <p>— Вообще вы задаете такие интересные вопросы… А чем мне придется тут заниматься?</p>
 <p>— Оу, ну у нас все хорошо, новые технологии, модный стек. Просто есть немного легаси кода, который нужно сапортить и, иногда, патчить. Но, судя по твоим ответам, у тебя все получится, даже не сомневайся. Мы делаем тебе оффер ?</p>
 
-<h3></h3><h3></h3>
+<!--kg-card-end: html--><h3></h3><h3></h3>
 

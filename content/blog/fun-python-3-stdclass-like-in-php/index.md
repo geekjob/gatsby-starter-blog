@@ -4,7 +4,7 @@ date: "2020-01-12T18:32:52.00Z"
 description: "Сегодня я узнал… Я тут недавно сделал пост, в котором показал как можно делать dotted dict и подумал что это аналог stdClass в P"
 ---
 
-<style>
+<!--kg-card-begin: html--><style>
     pre {
         background: white !important;
         color: #402d8b !important;
@@ -25,5 +25,5 @@ description: "Сегодня я узнал… Я тут недавно сдел
 <pre>a = <strong>type</strong>("stdClass", (B,), {})<br>print(a.buz) # abc</pre>
 <p>Собственно вот что я сегодня узнал про классы в Python ?</p>
 
-
+<!--kg-card-end: html-->
 

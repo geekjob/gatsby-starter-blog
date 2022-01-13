@@ -4,10 +4,12 @@ date: "2018-02-05T00:37:37.00Z"
 description: "Задачки с собеседований JS, PHP, Rust, Python, Go… > Есть всего 2 типа языков программирования: те, на которые люди все время ру"
 ---
 
-<h4>Задачки с собеседований JS, PHP, Rust, Python, Go…</h4>
+<!--kg-card-begin: html--><h4>Задачки с собеседований JS, PHP, Rust, Python, Go…</h4>
 <blockquote><p>Есть всего 2 типа языков программирования: те, на которые люди все время ругаются, и те, на которых никто не пишет.</p></blockquote>
 <blockquote><p>Bjarne Stroustrup</p></blockquote>
-
+<figure>
+<p><img data-width="1386" data-height="987" src="https://cdn-images-1.medium.com/max/800/1*RzVfJCC4HB7TI9K7sXh3FQ.jpeg"><br />
+</figure>
 <p>Есть такая задача: определить является ли год високосным. Причем эта задача может встретиться как в работе, так и на собеседовании. На собеседовании она может быть у кого угодно. У человека пишущего на JS, PHP, Python, Ruby, Swift, Go, etc…</p>
 <p>Конечно ответ правильный знает не каждый и это нормально. Нормально не все знать. Всезнайка наоборот вызывает подозрение. Обычно смотрят на рассуждения. Но если вы сталкивались в работе с такой задачей, то она явно будет у вас в голове и вы можете рассказать что знаете решение, потому, что… И показать его.</p>
 <h4>Решение</h4>
@@ -82,5 +84,5 @@ description: "Задачки с собеседований JS, PHP, Rust, Python
 <p>Поделитесь в комментариях. ?</p>
 <h3>Откуда взялся високосный год</h3>
 <p><iframe title="Как движется Земля  (Vsauce на русском)" width="580" height="326" src="https://www.youtube.com/embed/9afYdKLMylA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
+<!--kg-card-end: html-->
 

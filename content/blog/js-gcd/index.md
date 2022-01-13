@@ -4,8 +4,10 @@ date: "2018-04-17T00:46:08.00Z"
 description: "Задачки с собеседований    Очередная задачка с собеседований. На этот раз написать функцию для нахождения наибольшего общего дел"
 ---
 
-<h4>Задачки с собеседований</h4>
-
+<!--kg-card-begin: html--><h4>Задачки с собеседований</h4>
+<figure>
+<p><img data-width="1856" data-height="716" src="https://cdn-images-1.medium.com/max/800/1*g1CLvjyaDOUk8nrC1DdJrg.png"><br />
+</figure>
 <p>Очередная задачка с собеседований. На этот раз написать функцию для нахождения наибольшего общего делителя. Вариант решения будем писать на JS, но его легко повторить и на других языках, если понять суть.</p>
 <p>Почему JS? Потому, что на нем можно изгаляться и показывать невероятные конструкции. Что касается самой задачи, я её встречал как на собеседовании JS разработчиков, так и в собеседованиях на других языках.</p>
 <blockquote><p>
@@ -35,5 +37,5 @@ description: "Задачки с собеседований    Очередная
 <p>Никакой магии. Все по делу.</p>
 <hr>
 <p>Лайк, хлопок, шер. Слушайте меня в <a href="https://itunes.apple.com/ru/podcast/pro-web-it/id1366662242?mt=2" target="_blank" rel="noopener noreferrer">iTunes</a>, подписывайтесь на <a href="https://t.me/prowebit" target="_blank" rel="noopener noreferrer">Телеграм</a> канал или <a href="https://vk.com/mayorovprowebit" target="_blank" rel="noopener noreferrer">Вконтакте</a>.</p>
-
+<!--kg-card-end: html-->
 

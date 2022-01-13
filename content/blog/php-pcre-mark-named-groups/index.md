@@ -87,8 +87,7 @@ foreach (array_filter($a, 'is_string', ARRAY_FILTER_USE_KEY) as $key =&gt; $item
 '1' is digit
 '2' is digit
 '34' is digit
-'56' is digit</code></pre><h3 id="--1">Маркированные группы</h3><p>И вот только недавно в мануалах я нашел что-то про маркированные группы:</p>- <a class="kg-bookmark-container" href="http://pcre.org/current/doc/html/pcre2pattern.html"><div class="kg-bookmark-content"><div class="kg-bookmark-title">pcre2pattern specification</div><div class="kg-bookmark-description"></div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="http://pcre.org/favicon.ico"></div></div></a> <br/>
-<p>Абзац про "<strong>Recording which path was taken"</strong></p><p>Суть: каждую группу можно пометить маркером. В отличие от именованных групп, маркированные работают немного по другому, от этого и синтаксис другой:</p><pre><code class="language-php">&lt;?php declare(strict_types=1);
+'56' is digit</code></pre><h3 id="--1">Маркированные группы</h3><p>И вот только недавно в мануалах я нашел что-то про маркированные группы:</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="http://pcre.org/current/doc/html/pcre2pattern.html"><div class="kg-bookmark-content"><div class="kg-bookmark-title">pcre2pattern specification</div><div class="kg-bookmark-description"></div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="http://pcre.org/favicon.ico"></div></div></a></figure><p>Абзац про "<strong>Recording which path was taken"</strong></p><p>Суть: каждую группу можно пометить маркером. В отличие от именованных групп, маркированные работают немного по другому, от этого и синтаксис другой:</p><pre><code class="language-php">&lt;?php declare(strict_types=1);
 
 
 preg_match_all('~(?:[a-z]+)(*:alpha)|(?:\d+)(*:digit)~', '1 a 2 bc 34 56 def', $a);

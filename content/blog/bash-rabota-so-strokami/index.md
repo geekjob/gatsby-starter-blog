@@ -4,7 +4,7 @@ date: "2016-01-09T18:40:50.00Z"
 description: "Это памятка, т. к. периодически забываю.  Извлечение подстроки ${string:position} — с position до конца ${string:position:length"
 ---
 
-<p><em>Это памятка, т. к. периодически забываю.</em></p>
+<!--kg-card-begin: html--><p><em>Это памятка, т. к. периодически забываю.</em></p>
 <h4>Извлечение подстроки</h4>
 <pre>${string:position} — с position до конца<br>${string:position:length} - с position длиной length символов<br>${string: -length} - последние length символов</pre>
 <h4>Удаление части строки</h4>
@@ -16,5 +16,5 @@ description: "Это памятка, т. к. периодически забыв
 <pre>${#string} — Длина строки</pre>
 <h4>Пример</h4>
 <pre>a="12345"<br>echo "${a}"<br>echo "${a:3}"<br>echo "${a#12}"<br>echo "${a/12/21}"</pre>
-
+<!--kg-card-end: html-->
 

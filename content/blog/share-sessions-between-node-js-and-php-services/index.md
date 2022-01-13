@@ -4,9 +4,10 @@ date: "2019-02-27T12:16:28.00Z"
 description: "PHP session handler compatible with Node express-session  Compatible PHP session handler  В современном мире никого не удивить с"
 ---
 
-<h4>PHP s<em>ession handler compatible with Node express-session</em><br />
+<!--kg-card-begin: html--><h4>PHP s<em>ession handler compatible with Node express-session</em><br />
 </h4>
-
+<figure class="wp-caption">
+<p><img data-width="1384" data-height="520" src="https://cdn-images-1.medium.com/max/800/1*ce1gCxkfdNZwiH5Whpv6JA.jpeg"><figcaption class="wp-caption-text">Compatible PHP session handler</figcaption></figure>
 <p>В современном мире никого не удивить сервис ориентированной архитектурой. Можно сказать что сейчас это уже не менйстрим, а формат разработки. Это не модно, это реально удобно, когда монолит разбит на разные составляющие и каждая задача решается тем инструментом, который лучше для этого подходит. И это справедливо уже не только для энтерпрайза, но и пет проджекты могут состоять из готовых докер контейнеров, реализующих небольшие сервисы.</p>
 <p>Например, Node.js отлично справляется с I/O и отлично решает паттерн BFF (Backend for Frontend). Об этом подробнее говорили в недавнем выпуске RadioJS:</p>
 <p><iframe title="Выпуск 55: Node.js на бэкенде - настоящий бэкенд? by RadioJSPodcast" width="580" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F569384229&#038;show_artwork=true&#038;maxwidth=580&#038;maxheight=870&#038;dnt=1"></iframe></p>
@@ -75,5 +76,5 @@ description: "PHP session handler compatible with Node express-session  Compatib
 <p>Если где-то есть ошибки — пришлите PR, пожалуйста.</p>
 <p>Ссылка на <a href="https://packagist.org/packages/geekjob/expressjs-php-session-handler" target="_blank" rel="noopener noreferrer">packagist.org</a>:</p>
 <p><a href="https://github.com/expressjs/session/pull/634">https://github.com/expressjs/session/pull/634</a></p>
-
+<!--kg-card-end: html-->
 

@@ -4,8 +4,10 @@ date: "2018-03-29T16:57:02.00Z"
 description: "Зачем и как?    Небольшая заметка как и зачем может использоваться ключевое слово void в JavaScript. Слово void — это оператор в"
 ---
 
-<h4>Зачем и как?</h4>
-
+<!--kg-card-begin: html--><h4>Зачем и как?</h4>
+<figure>
+<p><img data-width="1200" data-height="630" src="https://cdn-images-1.medium.com/max/2560/1*A_h5kIlu9Wa0BtG83VwYtA.jpeg"><br />
+</figure>
 <p>Небольшая заметка как и зачем может использоваться ключевое слово void в JavaScript. Слово void — это оператор в JavaScript. Этот оператор позволяет вставлять выражения при этом всегда возвращает undefined.</p>
 <h3>Void для IIEFE</h3>
 <p>IIFE (Immediately-invoked function expression) — самовызывающаяся функция. Обычно такие функции описываются так:</p>
@@ -28,5 +30,5 @@ description: "Зачем и как?    Небольшая заметка как
 <h3>Головоломки с void</h3>
 <p>Ну и небольшой вопрос с подвохом. Что будет и почему? ?</p>
 <pre><strong>var</strong> x = <strong>void</strong> 'foo' + '!!!';</pre>
-
+<!--kg-card-end: html-->
 

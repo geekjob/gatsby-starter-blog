@@ -4,8 +4,9 @@ date: "2016-11-04T23:36:39.00Z"
 description: "Подборка короткометражных фильмов Подборка короткометражных фильмов  В продолжении статьи хочу предложить помечтать и посмотреть"
 ---
 
-<h4>Подборка короткометражных фильмов</h4>
-
+<!--kg-card-begin: html--><h4>Подборка короткометражных фильмов</h4>
+<figure class="wp-caption">
+<p><img data-width="2560" data-height="1442" src="https://cdn-images-1.medium.com/max/2560/1*l3acRTpovYsa3JC1O6Fmow.png"><figcaption class="wp-caption-text">Подборка короткометражных фильмов</figcaption></figure>
 <p>В продолжении статьи хочу предложить помечтать и посмотреть подборку короткометражек на тему будущего мира с повседневным применением технологий дополненной реальности.</p>
 <h4>Ссылка на предыдущий пост</h4>
 <p>Про AR/VR и тренды</p>
@@ -41,5 +42,5 @@ description: "Подборка короткометражных фильмов �
 <p><iframe title="**MUST WATCH** Microsoft HoloLens Future is Amazing!" width="580" height="326" src="https://www.youtube.com/embed/OtBuuyKWYD4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <h4>Top 3 Alternatives to Microsoft Hololens That You Can Buy Right Now</h4>
 <p><iframe title="Top 3 Alternatives to Microsoft Hololens That You Can Buy Right Now!" width="580" height="326" src="https://www.youtube.com/embed/FM-Cqr4mYoA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
+<!--kg-card-end: html-->
 

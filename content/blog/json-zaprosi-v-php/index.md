@@ -4,7 +4,7 @@ date: "2019-10-03T00:06:05.00Z"
 description: "Правильная обработка Один из современных способов взаимодействия фронтенда с бэкендом — это обмен данными в формате JSON. И, как"
 ---
 
-<h2 id="-">Правильная обработка</h2>
+<h2 id="-">Правильная обработка</h2><!--kg-card-begin: html-->
 <p>Один из современных способов взаимодействия фронтенда с бэкендом — это обмен данными в формате JSON. И, как показывает практика, не каждый может рассказать как же можно наладить такую взаимосвязь, обработать данные и в чем разница между следующими вариантами запросов.</p>
 <p>Один из современных типичных способов передачи JSON с фронтенда на бэкенд выглядит так:</p>
 <pre><strong>var </strong>data<strong> </strong>= {foo: {bar: [1,2,3]}};<br><br><strong>fetch</strong>('backend.php', {<br>      method : 'POST',<br>      cache  : 'no-cache',<br>      headers: {'Content-Type':'application/json'},<br>      body   : <strong>JSON</strong>.stringify(<strong>data</strong>)<br>   })<br>   .then(res=&gt;res.json())<br>   .then(<strong>console</strong>.log)<br>;</pre>
@@ -31,5 +31,5 @@ description: "Правильная обработка Один из соврем
 <pre><strong>if</strong> ('application/json' == $<strong>_SERVER</strong>['CONTENT_TYPE']<br><strong>&amp;&amp;</strong> 'POST' == $<strong>_SERVER</strong>['REQUEST_METHOD'])<br>{<br><strong>$_REQUEST</strong>['JSON'] = <strong>json_decode</strong>(<br><strong>file_get_contents</strong>('<em>php://input</em>'), <strong>true<br></strong>);<br><strong>$_POST</strong>['JSON'] = <strong>&amp; $_REQUEST</strong>['JSON'];<br>}</pre>
 <p>Вот вроде бы и все. Простая тема, но порой даже такие простые вещи вызывают вопросы.</p>
 
-
+<!--kg-card-end: html-->
 

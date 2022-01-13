@@ -4,8 +4,9 @@ date: "2018-09-12T23:18:30.00Z"
 description: "On Windows Server Reset MySQL 8.0 password on Windows Server  Заметки на полях. Потерял пароль. Стал восстанавливать и столкнулс"
 ---
 
-<h4>On Windows Server</h4>
-
+<!--kg-card-begin: html--><h4>On Windows Server</h4>
+<figure class="wp-caption">
+<p><img data-width="1280" data-height="720" src="https://cdn-images-1.medium.com/max/800/1*Pd6gh0I_4fXqpjeJvn9saA.jpeg"><figcaption class="wp-caption-text">Reset MySQL 8.0 password on Windows Server</figcaption></figure>
 <p>Заметки на полях. Потерял пароль. Стал восстанавливать и столкнулся с тем, что много разных источников показывают разные варианты. Но у меня сработал только один. Возможно кому-то это пригодится (ну или я сам снова потеряю пароль =)).</p>
 <p>Останавливаем сервер через:</p>
 <pre>Control Panel → Administrative Tools → Services → MySQL80 → [stop]</pre>
@@ -19,5 +20,5 @@ description: "On Windows Server Reset MySQL 8.0 password on Windows Server  З
 <p>После этого останавливаем скрипт и запускаем MySQL сервер через службу сервисов:</p>
 <pre>Control Panel → Administrative Tools → Services → MySQL80 → [start]</pre>
 <p>Вот как-то так.</p>
-
+<!--kg-card-end: html-->
 

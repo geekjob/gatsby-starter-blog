@@ -4,7 +4,7 @@ date: "2017-11-01T20:30:34.00Z"
 description: "Ставим безголовый хром на семерку и решаем ошибки запуска Сегодня речь о том, как установить на CentOS 7 безголовый хром. Это бу"
 ---
 
-<h4>Ставим безголовый хром на семерку и решаем ошибки запуска</h4>
+<!--kg-card-begin: html--><h4>Ставим безголовый хром на семерку и решаем ошибки запуска</h4>
 <p>Сегодня речь о том, как установить на CentOS 7 безголовый хром. Это будут зарисовки рабочих будней. Кому-то может пригодиться. Зарисовка первая — инсталляция. Поехали…</p>
 <h4>Ставим из RPM пакета</h4>
 <pre><strong>wget</strong> <a href="https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm" target="_blank" rel="noopener noreferrer">https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm</a></pre>
@@ -20,5 +20,5 @@ description: "Ставим безголовый хром на семерку и 
 </ul>
 <pre><strong>yum install</strong>  <br>    ipa-gothic-fonts <br>    xorg-x11-fonts-100dpi <br>    xorg-x11-fonts-75dpi <br>    xorg-x11-utils <br>    xorg-x11-fonts-cyrillic <br>    xorg-x11-fonts-Type1 <br>    xorg-x11-fonts-misc <strong>-y</strong></pre>
 <p>В итоге все заработало.</p>
-
+<!--kg-card-end: html-->
 

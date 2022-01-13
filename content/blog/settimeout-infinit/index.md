@@ -4,7 +4,7 @@ date: "2017-06-24T19:33:00.00Z"
 description: "Как отработает? Если в setTimeout передать большое значение, например Number.MAX_VALUE, то через какое время сработает таймер, к"
 ---
 
-<h4>Как отработает?</h4>
+<!--kg-card-begin: html--><h4>Как отработает?</h4>
 <p>Если в setTimeout передать большое значение, например Number.MAX_VALUE, то через какое время сработает таймер, как вы думаете?</p>
 <pre><strong>setTimeout</strong>(f =&gt;<strong> </strong>console.log('done'), Number.<strong>MAX_VALUE</strong>)</pre>
 <p>Значение выведется точно так же, как если бы вы передали 0 (ноль). А что если передать бесконечность?</p>
@@ -20,5 +20,5 @@ description: "Как отработает? Если в setTimeout передат
 <pre><strong>49999861776383 &gt;&gt;&gt; 0</strong> === <strong>2147483647</strong></pre>
 <p>Таким образом получаем:</p>
 <pre><strong>setTimeout</strong>(f =&gt;<strong> </strong>console.log('done'), <strong>49999861776383</strong>) // сработает как 2147483647</pre>
-
+<!--kg-card-end: html-->
 

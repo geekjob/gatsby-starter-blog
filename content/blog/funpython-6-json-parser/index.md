@@ -4,7 +4,7 @@ date: "2020-01-28T14:32:58.00Z"
 description: "Eval JSON string in Python Допустим есть некий JSON:  json_str = '{someInt:42,someTrue:true,someNull: null,someFalse:false,someS"
 ---
 
-<h4>Eval JSON string in Python</h4>
+<!--kg-card-begin: html--><h4>Eval JSON string in Python</h4>
 <p>Допустим есть некий JSON:</p>
 <pre>json_str = '{"someInt":42,"someTrue":true,"someNull": null,"someFalse":false,"someString":"Hello!","someFloat":3.14}'</pre>
 <p>Для работы с JSON в Python есть пакет json. Чтобы получить словарь из JSON строки мы можем поступить так:</p>
@@ -21,5 +21,5 @@ description: "Eval JSON string in Python Допустим есть некий J
 <p>Получаем:</p>
 <pre><em>{'someFalse': False,<br> 'someFloat': 3.14,<br> 'someInt': 42,<br> 'someNull': None,<br> 'someString': 'Hello!',<br> 'someTrue': True}</em></pre>
 <p>И вуаля, у нас получился JSON. Конечно такой метод использовать в веб приложении и, тем более, в продакшене опасно, но вот для личных скриптов вполне может быть пригодится. Как минимум про это можно просто знать, мало ли что…</p>
-
+<!--kg-card-end: html-->
 

@@ -4,7 +4,7 @@ date: "2018-02-21T00:10:53.00Z"
 description: "С заполнением диапазоном чисел на ES6 Задачка очень старая. Были времена, когда ее спрашивали на собеседованиях. Сейчас вряд ли "
 ---
 
-<h4>С заполнением диапазоном чисел на ES6</h4>
+<!--kg-card-begin: html--><h4>С заполнением диапазоном чисел на ES6</h4>
 <p>Задачка очень старая. Были времена, когда ее спрашивали на собеседованиях. Сейчас вряд ли кто-то всерьез будет спрашивать про нее на техническом интервью, но в жизни и быту она периодически встречается. А суть задачи проста: создать массив N размерности и заполнить его числами от 0 до N.</p>
 <p>Раньше для этих целей использовали сложную конструкцию вида:</p>
 <pre><strong>let</strong> n = 10<br><strong>const</strong> arr = <strong>Array</strong>.apply(<strong>null</strong>,{length:n}).map(<strong>Number</strong>.call, <strong>Number</strong>)</pre>
@@ -27,5 +27,5 @@ description: "С заполнением диапазоном чисел на ES
 <pre><strong>const</strong> arr = <strong>Array</strong>.from(<strong>Array</strong>(n), (_, i) =&gt; i)</pre>
 <p>или так</p>
 <pre><strong>const</strong> arr = <strong>Array</strong>.from({ length: n}, (_, i) =&gt; i)</pre>
-
+<!--kg-card-end: html-->
 

@@ -4,8 +4,10 @@ date: "2018-01-24T22:52:53.00Z"
 description: "Задачки с собеседований и не только    Дан список пользователей. У каждого есть массив скилов. Нужно отфильтровать людей имеющих"
 ---
 
-<h4>Задачки с собеседований и не только</h4>
-
+<!--kg-card-begin: html--><h4>Задачки с собеседований и не только</h4>
+<figure>
+<p><img data-width="798" data-height="271" src="https://cdn-images-1.medium.com/max/800/1*r2dJV2QBfzOQP7oaMsPvZw.png"><br />
+</figure>
 <p>Дан список пользователей. У каждого есть массив скилов. Нужно отфильтровать людей имеющих только определенные скилы:</p>
 <pre><strong>let</strong> users = [<br>  {name: 'Alex', experience: ['React', 'Babel']},<br>  {name: 'Boba', experience: ['Ember', 'jQuery']},<br>  {name: 'Lola', experience: ['Angular', 'TS']},<br>];</pre>
 <pre><em>// Нужны только люди с такими скилами</em><br><strong>let</strong> skills = ['Angular', 'React'];</pre>
@@ -22,5 +24,5 @@ description: "Задачки с собеседований и не только
 <pre><code><strong>const</strong> _ = <strong>require</strong>('underscore');<br><br></code><strong>let</strong> filtered = users.<strong>filter</strong>(x =&gt;<br><strong>_</strong>.intersection(skills, x.experience)<br>);</pre>
 <pre><strong>console</strong>.log(filtered);</pre>
 <p><em>Дисклеймер: яимею в виду что она решает ту же задачу, я не утверждаю что внутри она реализована точно так же.</em></p>
-
+<!--kg-card-end: html-->
 

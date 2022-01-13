@@ -4,7 +4,7 @@ date: "2018-02-19T20:45:56.00Z"
 description: "На JavaScript Если вдруг нужно быстро сгенерить символьные ID, которые представляют собой сочетание цифр и символов, при этом ва"
 ---
 
-<h4>На JavaScript</h4>
+<!--kg-card-begin: html--><h4>На JavaScript</h4>
 <p>Если вдруг нужно быстро сгенерить символьные ID, которые представляют собой сочетание цифр и символов, при этом вам не нужна высокая надежность и коллизии вам не страшны, то можно сделать это очень быстро следующим образом:</p>
 <pre><strong>const</strong> id = `f${(~~(<strong>Math</strong>.random()*1e8)).toString(16)}`;<br>// Result: f5d47a64</pre>
 <p>Можно так же сделать генерацию хешей от времени:</p>
@@ -21,8 +21,9 @@ description: "На JavaScript Если вдруг нужно быстро сге
 <p>Но такой код не криптостойкий и есть вероятность коллизии, так как Math.random() может вести себя детерменировано (особенно если вас посетил гугл бот. Пруф: <a href="http://www.tomanthony.co.uk/blog/googlebot-javascript-random/" target="_blank" rel="noopener noreferrer">http://www.tomanthony.co.uk/blog/googlebot-javascript-random/</a>)</p>
 <p>Для уменьшения коллизийи и улучшения криптонадежности можно использовать Crypto API:</p>
 <pre>const <strong>uuid</strong> =()=&gt;([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g,c=&gt;(c^crypto.getRandomValues(new Uint8Array(1))[0]&amp;15 &gt;&gt; c/4).toString(16));</pre>
-<p></p><p>Код ([1e7]+-1e3+-4e3+-8e3+-1e11) формирует строку "10000000-1000-4000-8000-100000000000". Далее .replace(/[018]/g - пробегаемся по символам, и с каждым 0, 1 и 8 производим манипуляции. Затем сдвиг: 15 &gt;&gt; c/4 - 0,1,8 =&gt; 15,15,3 после чего вызываем crypto.getRandomValues(new Uint8Array(1))[0] - генерим случайное число в диапазоне 0..255. Вызов crypto.getRandomValues(new Uint8Array(1))[0]&amp;15 &gt;&gt; c/4 - это не что иное как побитовое И, этот код сужает диапазон 0..255 до 0..15 или 0..3, если с=8. Вызов c^crypto.getRandomValues(new Uint8Array(1))[0]&amp;15 &gt;&gt; c/4 - ноль или один, или 8 черех XOR<strong> </strong>обрабатываются с предыдущим шагом. Полученный результат переводим в шестнадцатеричный формат и возвращаем вместо символа. Сдвиг и xor в данном коде нужны для большей энтропии.</p><p></p><h4>Генерация GUID</h4>
+<!--kg-card-end: html--><p></p><p>Код ([1e7]+-1e3+-4e3+-8e3+-1e11) формирует строку "10000000-1000-4000-8000-100000000000". Далее .replace(/[018]/g - пробегаемся по символам, и с каждым 0, 1 и 8 производим манипуляции. Затем сдвиг: 15 &gt;&gt; c/4 - 0,1,8 =&gt; 15,15,3 после чего вызываем crypto.getRandomValues(new Uint8Array(1))[0] - генерим случайное число в диапазоне 0..255. Вызов crypto.getRandomValues(new Uint8Array(1))[0]&amp;15 &gt;&gt; c/4 - это не что иное как побитовое И, этот код сужает диапазон 0..255 до 0..15 или 0..3, если с=8. Вызов c^crypto.getRandomValues(new Uint8Array(1))[0]&amp;15 &gt;&gt; c/4 - ноль или один, или 8 черех XOR<strong> </strong>обрабатываются с предыдущим шагом. Полученный результат переводим в шестнадцатеричный формат и возвращаем вместо символа. Сдвиг и xor в данном коде нужны для большей энтропии.</p><p></p><!--kg-card-begin: html--><h4>Генерация GUID</h4>
 <p>GUID — это разновидность UUID и его особенность заключается в формате. Так что при необходимости не составит труда переделать формат функции под GUID.</p>
-
-
+<figure class="wp-caption">
+<p><img data-width="594" data-height="160" src="https://cdn-images-1.medium.com/max/800/1*5SqBSrPvjeaVdlwIbS64jw.png"><figcaption class="wp-caption-text">UUID and GUID</figcaption></figure>
+<!--kg-card-end: html-->
 

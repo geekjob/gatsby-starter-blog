@@ -18,9 +18,8 @@ $foo = 456;
 
 var_dump($foo);
 var_dump($pm-&gt;foo());
-</code></pre><p>Подробности про доступ к закрытым полям читайте в предыдущей статье:</p>- <a class="kg-bookmark-container" href="/fun-php-5-access-to-private-and-protected/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">FunPHP#5: access to private and protected</div><div class="kg-bookmark-description">Паблик Морозов на собеседовании
+</code></pre><p>Подробности про доступ к закрытым полям читайте в предыдущей статье:</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="/fun-php-5-access-to-private-and-protected/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">FunPHP#5: access to private and protected</div><div class="kg-bookmark-description">Паблик Морозов на собеседовании
 PHP protected &amp; private property hacker На собеседованиях каких вопросов только не встретишь. Матерые волки, собеседуя
 php-гуру, могут спрашивать разные нетривиальные вещи. Одна из таких вещей:
-паттерн “Паблик Морозов”. &gt; Паблик Морозов — антипаттерн, позволяющий по…</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Александр Майоров</span><span class="kg-bookmark-publisher">Geekjob Tech</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.gravatar.com/avatar/8f8f604430a6a2116749fad87c9c86d5?s=250&amp;d=mm&amp;r=x"></div></a> <br/>
-<p></p>
+паттерн “Паблик Морозов”. &gt; Паблик Морозов — антипаттерн, позволяющий по…</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Александр Майоров</span><span class="kg-bookmark-publisher">Geekjob Tech</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.gravatar.com/avatar/8f8f604430a6a2116749fad87c9c86d5?s=250&amp;d=mm&amp;r=x"></div></a></figure><p></p>
 

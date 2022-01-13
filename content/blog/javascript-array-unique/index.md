@@ -4,7 +4,7 @@ date: "2016-02-09T15:45:54.00Z"
 description: "Увлекательные задачки по Javascript Дано  Массив чисел, произвольной длинны. Числа могут повторяться сколь угодно раз. Массив не"
 ---
 
-<h4>Увлекательные задачки по Javascript</h4>
+<!--kg-card-begin: html--><h4>Увлекательные задачки по Javascript</h4>
 <p><strong>Дано</strong></p>
 <p>Массив чисел, произвольной длинны. Числа могут повторяться сколь угодно раз. Массив не отсортирован.</p>
 <pre>var data = [1,1,1,2,3,4,5,6,5,4,3,5,7,8,9,0,....];</pre>
@@ -23,5 +23,5 @@ description: "Увлекательные задачки по Javascript Дано
 <pre>var result = data.filter((x,i)=&gt;i===data.lastIndexOf(x));</pre>
 <p>ES6 #1</p>
 <pre>let result = new Set(data)</pre>
-
+<!--kg-card-end: html-->
 

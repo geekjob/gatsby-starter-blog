@@ -4,7 +4,7 @@ date: "2016-12-30T15:50:09.00Z"
 description: "Старая задача на новый лад Задача: инициализировать массив и заполнить значениями. Раньше задача решалась строкой:  var a = Arra"
 ---
 
-<h4>Старая задача на новый лад</h4>
+<!--kg-card-begin: html--><h4>Старая задача на новый лад</h4>
 <p>Задача: инициализировать массив и заполнить значениями. Раньше задача решалась строкой:</p>
 <pre><strong>var</strong> a = <strong>Array</strong>.apply(<strong>null</strong>, {length: 8}).map(<strong>Number</strong>.call, <strong>Number</strong>);</pre>
 <p>Но сейчас же уже конец 2016 года (считай что уже 2017). И пишем мы давно не на ES5, а на ES2016+…</p>
@@ -20,5 +20,5 @@ description: "Старая задача на новый лад Задача: и
 <pre><strong>const</strong> a = [ ...<strong>Array</strong>(8).keys() ];</pre>
 <p>Вуаля! Если вдруг, по каким-то причинам нет возможности использовать этот оператор, можно заменить его на метод Array.from()</p>
 <pre><strong>const</strong> a = <strong>Array</strong>.from(<strong>Array</strong>(8).keys());</pre>
-
+<!--kg-card-end: html-->
 

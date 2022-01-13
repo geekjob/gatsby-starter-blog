@@ -4,7 +4,7 @@ date: "2020-01-06T03:03:51.00Z"
 description: "Ну или как создать dotted dict При работе с Python частенько, по привычке, хочется притянуть что-нибудь из других языков. Не все"
 ---
 
-<style>
+<!--kg-card-begin: html--><style>
     pre {
         background: white !important;
         color: #402d8b !important;
@@ -31,5 +31,5 @@ description: "Ну или как создать dotted dict При работе
 <p>Просто, имхо, это сильно приятнее чем писать:</p>
 <pre><strong>print</strong>(mydict['bar']( mydict['foo'] ))<br>mydict['buz'] = 'abc'</pre>
 
-
+<!--kg-card-end: html-->
 

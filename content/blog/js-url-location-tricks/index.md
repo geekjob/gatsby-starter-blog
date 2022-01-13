@@ -4,8 +4,9 @@ date: "2019-03-31T02:32:41.00Z"
 description: "А вы знали что… Не зная таких вещей, можно наломать дров  Наверняка вы знаете что, чтобы получить имя домена нужно обратиться к "
 ---
 
-<h4>А вы знали что…</h4>
-
+<!--kg-card-begin: html--><h4>А вы знали что…</h4>
+<figure class="wp-caption">
+<p><img data-width="1576" data-height="604" src="https://cdn-images-1.medium.com/max/800/1*kIxgVNp7hkh7Uy94TxzJ1Q.jpeg"><figcaption class="wp-caption-text">Не зная таких вещей, можно наломать дров</figcaption></figure>
 <p>Наверняка вы знаете что, чтобы получить имя домена нужно обратиться к <code>window.location</code>:</p>
 <pre>window.location.href</pre>
 <p>При этом не раз слышал на собеседовании что чтобы получить имя домена, надо парсить это свойство. Я думаю что многие знают, что чтобы получить части URL нужно обратиться к соответствующим полям (их там на все части URL):</p>
@@ -52,5 +53,5 @@ description: "А вы знали что… Не зная таких вещей,
 <pre><code><strong>const</strong> query = <strong>new</strong> URLSearchParams( </code>location.search )</pre>
 <p><a href="https://developer.mozilla.org/ru/docs/Web/API/URLSearchParams" target="_blank" rel="noopener noreferrer">Подробности на MDN</a>.</p>
 <p>Такая вот интересная годнота. Вроде многое знакомо и пользуемся чуть ли не каждый день, но всегда есть нюансы, на которые можем просто не обращать внимание.</p>
-
+<!--kg-card-end: html-->
 

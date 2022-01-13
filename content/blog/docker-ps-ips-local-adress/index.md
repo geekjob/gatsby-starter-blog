@@ -45,5 +45,5 @@ done
 
 printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' _
 
-#EOF#</code></pre><p>Вывод такой функции выглядит точно так же как оригнал, но в конце дописываются локальные IP адреса:</p><p>Далее все это можно зарядить в алиас или еще куда и пользоваться кастомной командой <strong>dockerps</strong></p>
+#EOF#</code></pre><p>Вывод такой функции выглядит точно так же как оригнал, но в конце дописываются локальные IP адреса:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/content/images/2021/07/--------------2021-07-27---18.30.01.png" class="kg-image" alt srcset="/content/images/size/w600/2021/07/--------------2021-07-27---18.30.01.png 600w, /content/images/size/w1000/2021/07/--------------2021-07-27---18.30.01.png 1000w, /content/images/size/w1600/2021/07/--------------2021-07-27---18.30.01.png 1600w, /content/images/2021/07/--------------2021-07-27---18.30.01.png 2150w" sizes="(min-width: 720px) 720px"><figcaption>dockerps with local IP's</figcaption></figure><p>Далее все это можно зарядить в алиас или еще куда и пользоваться кастомной командой <strong>dockerps</strong></p>
 

@@ -4,8 +4,10 @@ date: "2018-01-19T18:09:06.00Z"
 description: "Особенности поведения    Сегодня говорим про PHP. Задачка первая. Дан код:  <?php  class HR { public $foo = 1; }  $Obj1 = New HR"
 ---
 
-<h4>Особенности поведения</h4>
-
+<!--kg-card-begin: html--><h4>Особенности поведения</h4>
+<figure>
+<p><img data-width="800" data-height="420" src="https://cdn-images-1.medium.com/max/800/1*7Y8iYpU8qOzrVdeBKEdLSg.png"><br />
+</figure>
 <p>Сегодня говорим про PHP. Задачка первая. Дан код:</p>
 <pre>&lt;?php</pre>
 <pre><strong>class</strong> HR {<br><strong>public</strong> $foo = 1;<br>}<br><br>$Obj1 = <strong>New</strong> HR( Foo.bar() );<br>$Obj2 = <strong>new</strong> stdClass( someDo( $Obj1 ) );<br><br><em>#EOF#</em></pre>
@@ -30,5 +32,5 @@ description: "Особенности поведения    Сегодня гов
 <h3>UPD</h3>
 <p>В продолжении темы, похожая по духу и поведению задачка:</p>
 <p><a href="https://3v4l.org/T5EAi#v560">https://3v4l.org/T5EAi#v560</a></p>
-
+<!--kg-card-end: html-->
 

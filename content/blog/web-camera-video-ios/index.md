@@ -4,7 +4,7 @@ date: "2016-11-20T15:47:18.00Z"
 description: "Как получить доступ к видео с камеры в браузере А вот интересная задача. Хочу сделать веб приложение под браузер, в котором нужн"
 ---
 
-<h4>Как получить доступ к видео с камеры в браузере</h4>
+<!--kg-card-begin: html--><h4>Как получить доступ к видео с камеры в браузере</h4>
 <p>А вот интересная задача. Хочу сделать веб приложение под браузер, в котором нужно получить доступ к веб-камере. Снимать видео-поток и производить манипуляции. Вроде бы все просто, у нас есть различные HTML5 API для этих целей. Но не так все гладко. Даже вообще не гладко, к сожалению…</p>
 <p>Сначала давайте разберемся, можно ли вообще получить доступ к веб-камере из веб-страницы.</p>
 <h4>Получаем фото в iOS из браузера</h4>
@@ -20,10 +20,16 @@ description: "Как получить доступ к видео с камеры
 <p>Разрешаем загружать только видео:</p>
 <pre>&lt;<strong>input</strong> <strong>type</strong>="file" <strong>accept</strong>="video/*" <strong>capture</strong>="camcorder"&gt;</pre>
 <p>В случае, если не задавать атрибут capture, вам будет предложены все варианты получения медиаконтента: от камеры до фотопотока.</p>
-- <a href="http://ios.majorov.su/" target="_blank" rel="noopener noreferrer">http://ios.majorov.su/</a> <br/>
-
+<figure>
+<p><img data-width="640" data-height="1136" src="https://cdn-images-1.medium.com/max/800/1*009RmriZVk85l_S4LEgcQw.jpeg"><br />
+</figure>
+<h3>Демо</h3>
+<p><a href="http://ios.majorov.su/" target="_blank" rel="noopener noreferrer">http://ios.majorov.su/</a></p>
+<figure>
+<p><img data-width="330" data-height="330" src="https://cdn-images-1.medium.com/max/800/1*OdXihMUf3-vJUr6_e5NSHQ.png"><br />
+</figure>
 <hr>
 <h3>getUserMedia в iOS</h3>
 <p>К сожалению на сегодня (конец 2016 года) в Safari (да и в любом браузере на iOS) невозможно получить доступ видеопотоку. Если вы знаете как это сделать, то напишите в комментариях. Мне будет очень интересно.</p>
-
+<!--kg-card-end: html-->
 

@@ -4,7 +4,7 @@ date: "2019-08-05T15:51:30.00Z"
 description: "Шпаргалка Я люблю краткие записи и часто пользуюсь тернарным оператором, особенно в PHP. Добавление новых 2х вариаций тернарного"
 ---
 
-<h4>Шпаргалка</h4>
+<!--kg-card-begin: html--><h4>Шпаргалка</h4>
 <p>Я люблю краткие записи и часто пользуюсь тернарным оператором, особенно в PHP. Добавление новых 2х вариаций тернарного оператора, таких как:</p>
 <ul>
 <li>?: — сокращенная запись тернарного оператора</li>
@@ -57,5 +57,5 @@ description: "Шпаргалка Я люблю краткие записи и ч
 <pre>$obj1 = f();<br>var_dump( $obj1 );<br>// Notice: Only variable references should be returned by reference in ...</pre>
 <pre><strong>function</strong> &amp;f(): ?<strong>object</strong> {<br><strong>static</strong> $obj;<br><strong>if</strong> (!$obj) $obj = (<strong>object</strong>) ['foo' =&gt; 123];<br>    //return $obj; // ok<br><strong>return</strong> $obj ?: <strong>null</strong>; // notice<br>}</pre>
 
-
+<!--kg-card-end: html-->
 

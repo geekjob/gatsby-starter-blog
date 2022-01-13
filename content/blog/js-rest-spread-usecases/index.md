@@ -4,8 +4,10 @@ date: "2016-11-14T13:50:08.00Z"
 description: "Трюки с ES2015    С приходом нового синтаксического сахара в ES.Next в руках фронтендеров появились новые мощные инструменты для"
 ---
 
-<h4>Трюки с ES2015</h4>
-
+<!--kg-card-begin: html--><h4>Трюки с ES2015</h4>
+<figure>
+<p><img data-width="1858" data-height="718" src="https://cdn-images-1.medium.com/max/800/1*zSAQmuQvn_oBecBtZ_W_xg.png"><br />
+</figure>
 <p>С приходом нового синтаксического сахара в ES.Next в руках фронтендеров появились новые мощные инструменты для сокращения кода. Код можно делать более читаемым (но при этом более непонятным для тех, кто не знает новый стандарт).</p>
 <h4>Переименование</h4>
 <p>Рассмотрим первый пример с деструктуризацией — переименование.</p>
@@ -46,5 +48,5 @@ description: "Трюки с ES2015    С приходом нового синт
 <pre>console.log(filepath);</pre>
 <hr>
 <p>Лайк, хлопок, шер. Слушайте меня в <a href="https://itunes.apple.com/ru/podcast/pro-web-it/id1366662242?mt=2" target="_blank" rel="noopener noreferrer">iTunes</a>, подписывайтесь на <a href="https://t.me/prowebit" target="_blank" rel="noopener noreferrer">Телеграм</a> канал или <a href="https://vk.com/mayorovprowebit" target="_blank" rel="noopener noreferrer">Вконтакте</a>.</p>
-
+<!--kg-card-end: html-->
 

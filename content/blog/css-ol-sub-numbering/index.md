@@ -9,5 +9,5 @@ ol &gt; li { display: block }
 ol &gt; li:before {
     content: counters(item, ".") ". ";
     counter-increment: item
-}</code></pre><p>В итоге получаем такой вот документ:</p>
+}</code></pre><p>В итоге получаем такой вот документ:</p><figure class="kg-card kg-image-card"><img src="/content/images/2021/08/--------------2021-08-20---15.12.06.png" class="kg-image" alt srcset="/content/images/size/w600/2021/08/--------------2021-08-20---15.12.06.png 600w, /content/images/size/w1000/2021/08/--------------2021-08-20---15.12.06.png 1000w, /content/images/size/w1600/2021/08/--------------2021-08-20---15.12.06.png 1600w, /content/images/2021/08/--------------2021-08-20---15.12.06.png 2034w" sizes="(min-width: 720px) 720px"></figure>
 

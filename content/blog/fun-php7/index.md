@@ -4,7 +4,7 @@ date: "2019-05-22T15:47:00.00Z"
 description: "Поговорим про PHP7 Относительно недавно писал про Паблика Морозова [https://medium.com/@frontman/php-access-to-private-and-prote"
 ---
 
-<h2 id="-php7">Поговорим про PHP7</h2>
+<h2 id="-php7">Поговорим про PHP7</h2><!--kg-card-begin: html-->
 <p>Относительно недавно писал про <a href="https://medium.com/@frontman/php-access-to-private-and-protected-b1028b974169" target="_blank" rel="noopener noreferrer">Паблика Морозова</a>. Появились новые мысли и захотелось немного добавить. Вдохновение почерпнул из доклада <a href="https://medium.com/u/bb77dc6767eb" target="_blank" rel="noopener noreferrer">Alexander Lisachenko</a> <a href="https://phprussia.ru/2019/abstracts/5151" target="_blank" rel="noopener noreferrer">который был недавно на PHPRussia</a>.</p>
 <p>У Александра был доклад про магию (я очень порадовался что в мире есть единомышленники) и если вы интересуетесь магией, то вам явно стоит увидеть этот доклад (теперь уже в записи). Александр там упомянул <a href="https://www.php.net/manual/en/filters.php" target="_blank" rel="noopener noreferrer">stream filetrs</a>, которые есть в PHP начиная с 5й версии (если не ошибаюсь). Когда впервые я увидел эти фильтры я не понял для чего их можно применить на практике, чтобы прям была польза. Ведь по сути это возможность парсить подключаемый файл перед парсингом интерпретатора, что можно сделать и без фильтров (что я и делал еще во времена PHP4 (когда-то был у меня самописный фреймворк со своим синтаксическим сахаром aka DSL)).</p>
 <p>Были разные идеи применения для обфускации, например(были времена работы в вебстудии когда делиться кодом было не принято). Но вот чтобы применить эти фильтры для того, чтобы Паблик Морозов мог взломать защищенные методы — эта идея пришла только сейчас, с подачи Александра.</p>
@@ -51,5 +51,5 @@ description: "Поговорим про PHP7 Относительно недав
 <pre><strong>class</strong> Closed { <strong>private</strong> <strong>function</strong> __construct() {} }<br>$foo = <strong>unserialize</strong>(<br><strong>sprintf</strong>(<br><em>'O:%d:"%s":0:{}'</em>,<br><strong>strlen</strong>(Closed::<strong>class</strong>), Closed::<strong>class</strong><br>         )<br>      )<br>;</pre>
 <p>И мы получим инстанс класса, от которого как бы нельзя было инстанцироваться. Эта же техника применима и к методам и свойствам.</p>
 
-
+<!--kg-card-end: html-->
 

@@ -4,7 +4,7 @@ date: "2016-12-08T13:37:39.00Z"
 description: "Выкидываем Babel До текущего релиза TypeScript, который совершился 7 декабря 2016 года, некоторые пользовались двойной компиляци"
 ---
 
-<h4>Выкидываем Babel</h4>
+<!--kg-card-begin: html--><h4>Выкидываем Babel</h4>
 <p>До текущего релиза TypeScript, который совершился 7 декабря 2016 года, некоторые пользовались двойной компиляцией при работе с TypeScript:</p>
 <p><iframe title="Battle Programmer Shirase - Double Compile (In English)" width="580" height="435" src="https://www.youtube.com/embed/6WxJECOFg8w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>Код на TS/TSX транспилировался с таргетом ESNEXT и далее уже полученный код отдавался на транспилирование в Babeljs:</p>
@@ -24,5 +24,5 @@ description: "Выкидываем Babel До текущего релиза Type
 <p>А вообще много чего еще интересного добавлено в этом релизе. Просто банально нет времени переводить все. Так что советую пройтись по ссылкам и самим все увидеть</p>
 <p><a href="https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/">https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/</a><br />
 <a href="https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/">https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/</a></p>
-
+<!--kg-card-end: html-->
 

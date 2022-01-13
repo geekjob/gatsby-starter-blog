@@ -4,8 +4,10 @@ date: "2018-01-25T12:07:46.00Z"
 description: "Значения по ссылке    Дано:  <?php  function getCount(&$a) { return count($a); }  $cnt = getCount( $foo ); var_dump($cnt);  $cnt"
 ---
 
-<h4>Значения по ссылке</h4>
-
+<!--kg-card-begin: html--><h4>Значения по ссылке</h4>
+<figure>
+<p><img data-width="1010" data-height="482" src="https://cdn-images-1.medium.com/max/800/1*_-Bm_N5NPppDQgKHcf_W7g.png"><br />
+</figure>
 <p>Дано:</p>
 <pre><strong>&lt;?php</strong><br><br><strong>function</strong> getCount(<strong>&amp;$a</strong>) { return count($a); }<br><br>$cnt = getCount( $foo );<br><strong>var_dump</strong>($cnt);<br><br>$cnt = getCount( $foo['bar'] );<br><strong>var_dump</strong>($cnt);<br><br><em>#EOF</em></pre>
 <p>Возникает вопрос, а что за $foo ? Отвечаю: не определен. Нет его. Что будет?</p>
@@ -31,5 +33,5 @@ description: "Значения по ссылке    Дано:  <?php  function 
 <p>Про обращение все верно и при обращении ворнинги будут всегда — это логично. Фишка задачи именно в том, как обрабатываются параметры по ссылке.</p>
 <blockquote><p>Ты передаешь ссылку на элемент массива, указывая таким образом, что хочешь после выполнения получить массив с таким-то элементом. А вообще в пхп нет никакого смысла передавать параметры по ссылкам. Память ты не сэкономишь, они все copy-on-write. А возвращаемый результат функции должен быть одним. Несколько результатов нарушают принципы SOLID напрямую.</p></blockquote>
 
-
+<!--kg-card-end: html-->
 

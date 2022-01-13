@@ -4,10 +4,9 @@ date: "2016-07-18T14:45:39.00Z"
 description: "A complete guide with answers for the interview Photo by Artem Sapegin [https://unsplash.com/@sapegin?utm_source=unsplash&utm_me"
 ---
 
-<h4>A complete guide with answers for the interview</h4>
-- <a href="https://unsplash.com/@sapegin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Artem Sapegin</a> <br/>
-- <a href="https://unsplash.com/search/photos/javascript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a> <br/>
-
+<!--kg-card-begin: html--><h4>A complete guide with answers for the interview</h4>
+<figure class="wp-caption">
+<p><img data-width="5472" data-height="3648" src="https://cdn-images-1.medium.com/max/800/1*JNpk3yLpt9f4x_aEO5pa-w.jpeg"><figcaption class="wp-caption-text">Photo by <a href="https://unsplash.com/@sapegin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Artem Sapegin</a> on <a href="https://unsplash.com/search/photos/javascript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption></figure>
 <p>Swapping the value of two variables normally takes three lines and a temporary variable. What if I told you there was an easier way to do this with JavaScript?</p>
 <p>There are two types of conditions for such a task. There is the classical condition, where we change two numbers. Then there is the more difficult task — change two of any type (string, float, object, other…).</p>
 <hr>
@@ -63,5 +62,5 @@ description: "A complete guide with answers for the interview Photo by Artem Sap
 <h4>ES6+ method</h4>
 <p>Since ES6, you can also swap variables more elegantly. You can use destructuring assignment array matching. It’s simply:</p>
 <pre>[a, b] = [b, a]</pre>
-
+<!--kg-card-end: html-->
 

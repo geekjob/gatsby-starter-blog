@@ -4,7 +4,7 @@ date: "2016-09-23T15:28:34.00Z"
 description: "Вышел релиз языка и уже доступна версия 2.0.3 22 сентября разработчики Microsoft объявили о выходе релиза TypeScript 2.0!  Это с"
 ---
 
-<h4>Вышел релиз языка и уже доступна версия 2.0.3</h4>
+<!--kg-card-begin: html--><h4>Вышел релиз языка и уже доступна версия 2.0.3</h4>
 <p>22 сентября разработчики Microsoft объявили о выходе релиза TypeScript 2.0!</p>
 <p>Это событие не может остаться без внимания, т.к. TypeScript несет с собой множество новых фич, а так же обновленния существующих.</p>
 <p>За подробностями добро пожаловать под кат, а, чтобы сразу опробовать прочитанное, устанавливайте новую версию. Если вы прямо сейчас выполните:</p>
@@ -152,5 +152,5 @@ description: "Вышел релиз языка и уже доступна вер
 <a href="https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript">https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript</a><br />
 <a href="https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript">https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript</a><br />
 <a href="https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript">https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript</a></p>
-
+<!--kg-card-end: html-->
 

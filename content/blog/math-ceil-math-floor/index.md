@@ -4,8 +4,10 @@ date: "2018-02-07T14:58:50.00Z"
 description: "Tips & Tricks in JS    Сегодня не про задачки, а про трюки в JS. Пример, как можно сократить запись Math.ceil и Math.floor. Не т"
 ---
 
-<h4>Tips &amp; Tricks in JS</h4>
-
+<!--kg-card-begin: html--><h4>Tips &amp; Tricks in JS</h4>
+<figure>
+<p><img data-width="800" data-height="306" src="https://cdn-images-1.medium.com/max/800/1*vJUGHsAC1lYcXqB11RgtdA.jpeg"><br />
+</figure>
 <p>Сегодня не про задачки, а про трюки в JS. Пример, как можно сократить запись Math.ceil и Math.floor. Не то, чтобы это круто, но в чужом коде, особенно в NPM пакетах такое может встречаться. Чтобы это не вызывало вопросов и не было ощущения что тут какая-то магия(а тут нет никакой магии, просто нужно знать как работают операторы). Где-то такой код генерится “машиной”, всякими обфускаторами и минификаторами. А где-то люди сами пишут такой код.</p>
 <h3>Math.ceil</h3>
 <blockquote><p>Метод <code><strong>Math.ceil()</strong></code> возвращает наименьшее целое число, большее, либо равное указанному числу.</p></blockquote>
@@ -23,5 +25,5 @@ description: "Tips & Tricks in JS    Сегодня не про задачки,
 <p>Ставит 1 на бит результата, для которого хотя бы один из соответствующих битов операндов равен 1.</p>
 <pre>0|number === Math.floor(number)<br>number|0 === Math.floor(number)</pre>
 <pre>// Примеры:<br>0|8.1 === Math.floor(8.1)<br>4.9|0 === Math.floor(4.9)</pre>
-
+<!--kg-card-end: html-->
 

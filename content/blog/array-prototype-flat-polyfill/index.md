@@ -4,7 +4,7 @@ date: "2019-06-12T16:30:04.00Z"
 description: "Полифилим правильно Давеча накидал вариант полифила для [].flat. Показал быстрое решение, но если вникать в детали, оно не очень"
 ---
 
-<h4>Полифилим правильно</h4>
+<!--kg-card-begin: html--><h4>Полифилим правильно</h4>
 <p>Давеча накидал вариант полифила для <code>[].flat</code> . Показал быстрое решение, но если вникать в детали, оно не очень верное. Если заглянуть в спецификацию, то увидим что у данного метода есть аргумент — depth.</p>
 <p>Собственно на этот косяк мне указал <a href="https://medium.com/u/ac81ad26a141" target="_blank" rel="noopener noreferrer">Roman Dvornov</a>, увидев мой полифил. Так же Рома предложил вариант еще короче. Пойдем по порядку, мой вариант был таким:</p>
 <pre><strong>if</strong> (!<strong><em>Array</em></strong>.prototype.flat) <strong><em>Array</em></strong>.prototype.flat = <strong>function</strong> () {<br><strong>return</strong> (<strong>function</strong> <em>f</em>(arr) {<br><strong>return</strong> arr.reduce(<br>         (a, v) <strong>=&gt;</strong><br><strong><em>Array</em></strong>.isArray(v)<br>               ? a.concat(<em>f</em>(v))<br>               : a.concat(  v )<br>         , []<br>      )<br>   })(<strong>this</strong>)<br>};</pre>
@@ -29,5 +29,5 @@ description: "Полифилим правильно Давеча накидал 
 <p>Итоговый вариант полифила я добавил в русскую версию документации на MDN:</p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#Polyfill">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#Polyfill</a></p>
 
-
+<!--kg-card-end: html-->
 

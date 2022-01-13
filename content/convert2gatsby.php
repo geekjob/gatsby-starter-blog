@@ -40,7 +40,7 @@ foreach ($data['db'][0]['data']['posts'] as $post)
     $dir = __DIR__ . '/blog/' . $record['slug'];
     if (!file_exists($dir)) mkdir($dir);
 
-
+/*
     $record['text'] = preg_replace_callback(
         '~<figure.*</figure>~is',
         function(array $matches): string
@@ -57,8 +57,9 @@ foreach ($data['db'][0]['data']['posts'] as $post)
         },
         $record['text']
     );
+//*/
 
-    $record['text'] = preg_replace('~<!--.*?-->~is', '', $record['text']);
+//    $record['text'] = preg_replace('~<!--.*?-->~is', '', $record['text']);
 
     $post_data = <<<MARKDOWN
 ---

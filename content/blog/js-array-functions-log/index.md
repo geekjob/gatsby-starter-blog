@@ -4,7 +4,7 @@ date: "2018-07-10T11:54:31.00Z"
 description: "Как вызвать console.log в arrow functions Когда увлекаешься ФП стилем и стрелочными функциями, наступает момент, когда код обилу"
 ---
 
-<h4>Как вызвать console.log в arrow functions</h4>
+<!--kg-card-begin: html--><h4>Как вызвать console.log в arrow functions</h4>
 <p>Когда увлекаешься ФП стилем и стрелочными функциями, наступает момент, когда код обилует функциями вида</p>
 <pre><strong>const</strong> y = x =&gt; f(x);</pre>
 <p>Если вдруг вам надо отдебажить код и залогировать такую функцию, то часто это делается так:</p>
@@ -26,5 +26,5 @@ description: "Как вызвать console.log в arrow functions Когда у
 <pre>a.filter(x =&gt; !console.log(x))<br> .map(...)</pre>
 <p>filter всегда возвращает boolean значение. Если True — элемент остается. Так как console.log() всегда возвращает `void 0` , то используя это, мы можем через инверсию всегда возвращать True. При этом мы дампим поток map-reduce логики. Удобно.</p>
 
-
+<!--kg-card-end: html-->
 
