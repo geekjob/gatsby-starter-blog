@@ -1,9 +1,7 @@
 ---
 title: "TOP'чик"
 date: "2020-04-30T09:52:42.000Z"
-description: "Самые популярные статьи
-Про приведение типов в JS и магию. Часть 2Что еще надо знать
-> «Где отсутствует точное знание, там дейст"
+description: "Самые популярные статьи Про приведение типов в JS и магию. Часть 2Что еще надо знать > «Где отсутствует точное знание, там дейст"
 ---
 
 <h2 id="-">Самые популярные статьи</h2>- <a class="kg-bookmark-container" href="/js-privedenie-tipov-i-magia-2/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Про приведение типов в JS и магию. Часть 2</div><div class="kg-bookmark-description">Что еще надо знать

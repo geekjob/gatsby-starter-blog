@@ -1,10 +1,7 @@
 ---
 title: "Call map() from String primitive"
 date: "2017-06-21T17:03:00.000Z"
-description: "ES7 hack with spread operator
-[...123456..toString()].map(s => s.someDo()).map(parseFloat)
-
-Если применить спред оператор к итер"
+description: "ES7 hack with spread operator [...123456..toString()].map(s => s.someDo()).map(parseFloat)  Если применить спред оператор к итер"
 ---
 
 <h4>ES7 hack with spread operator</h4>

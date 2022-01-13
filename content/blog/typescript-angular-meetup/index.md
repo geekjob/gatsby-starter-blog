@@ -1,9 +1,7 @@
 ---
 title: "Фишки и прелести TypeScript"
 date: "2017-03-30T15:44:39.000Z"
-description: "Видео доклада с Angular Meetup #1
-Выложили видео с 1го Angular Meetup’a. Конечно уже доступна версия 2.2, тем не
-менее кому-то м"
+description: "Видео доклада с Angular Meetup #1 Выложили видео с 1го Angular Meetup’a. Конечно уже доступна версия 2.2, тем не менее кому-то м"
 ---
 
 <h4>Видео доклада с Angular Meetup #1</h4>

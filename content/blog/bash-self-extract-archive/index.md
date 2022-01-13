@@ -1,16 +1,7 @@
 ---
 title: "Самораспаковывающийся архив BASH"
 date: "2016-01-09T18:51:31.000Z"
-description: "BZip вариант
-#!/bin/bash
-sed -e '1,/^DATA_SECTION$/d' $0 | base64 -d | tar -jx
-exit
-DATA_SECTION
-
-
-
-Упаковка tar-bzip архива
-cat"
+description: "BZip вариант #!/bin/bash sed -e '1,/^DATA_SECTION$/d' $0 | base64 -d | tar -jx exit DATA_SECTION    Упаковка tar-bzip архива cat"
 ---
 
 <h4>BZip вариант</h4>

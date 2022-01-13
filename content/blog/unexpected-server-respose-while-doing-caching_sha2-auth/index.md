@@ -1,11 +1,7 @@
 ---
 title: "Unexpected server respose while doing caching_sha2 auth"
 date: "2018-09-12T23:54:50.000Z"
-description: "PHP 7.2.8
-Очередные заметки на полях, вдруг кому-то пригодится. Если вы столкнулись с
-ошибкой:
-
-> Fatal error: Uncaught PDOExcep"
+description: "PHP 7.2.8 Очередные заметки на полях, вдруг кому-то пригодится. Если вы столкнулись с ошибкой:  > Fatal error: Uncaught PDOExcep"
 ---
 
 <h4>PHP 7.2.8</h4>

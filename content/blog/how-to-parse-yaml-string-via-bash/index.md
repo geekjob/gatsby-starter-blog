@@ -1,8 +1,7 @@
 ---
 title: "How to parse YAML string via Bash"
 date: "2016-07-18T15:24:49.000Z"
-description: "If you like parse YAML via command line (bash or other), you can write script on
-JS for Nodejs, Ruby, PHP or other… Or you can u"
+description: "If you like parse YAML via command line (bash or other), you can write script on JS for Nodejs, Ruby, PHP or other… Or you can u"
 ---
 
 <p>If you like parse YAML via command line (bash or other), you can write script on JS for Nodejs, Ruby, PHP or other… Or you can use ready command line tools. It’s simply.</p><p>Of course you can search the finished tool, or even write your own parser, such as this:</p><pre><code class="language-bash">#!/bin/sh

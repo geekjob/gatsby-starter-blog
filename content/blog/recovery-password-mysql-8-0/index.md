@@ -1,10 +1,7 @@
 ---
 title: "Recovery password MySQL 8.0"
 date: "2018-09-12T23:18:30.000Z"
-description: "On Windows Server
-Reset MySQL 8.0 password on Windows Server
-
-Заметки на полях. Потерял пароль. Стал восстанавливать и столкнулс"
+description: "On Windows Server Reset MySQL 8.0 password on Windows Server  Заметки на полях. Потерял пароль. Стал восстанавливать и столкнулс"
 ---
 
 <h4>On Windows Server</h4>

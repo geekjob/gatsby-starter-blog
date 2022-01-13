@@ -1,12 +1,7 @@
 ---
 title: "Компонентный подход"
 date: "2017-04-15T19:02:11.000Z"
-description: "Дискуссия на SPA Meetup
-
-
-
-8 апреля в офисе Avito прошел SPA Meetup. Это митап-сателит Moscow.js
-[http://moscowjs.ru/], ориентир"
+description: "Дискуссия на SPA Meetup    8 апреля в офисе Avito прошел SPA Meetup. Это митап-сателит Moscow.js [http://moscowjs.ru/], ориентир"
 ---
 
 <h4>Дискуссия на SPA Meetup</h4>

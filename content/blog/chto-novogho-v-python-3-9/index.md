@@ -1,10 +1,7 @@
 ---
 title: "Что нового в Python 3.9"
 date: "2020-06-11T11:17:52.000Z"
-description: "Релиз нового пайтона уже не за горами и случится в октябре 2020. В этом посте я
-расскажу свои мысли про новые фичи.
-
-Обсуждаем ф"
+description: "Релиз нового пайтона уже не за горами и случится в октябре 2020. В этом посте я расскажу свои мысли про новые фичи.  Обсуждаем ф"
 ---
 
 <p>Релиз нового пайтона уже не за горами и случится в октябре 2020. В этом посте я расскажу свои мысли про новые фичи.</p><h2 id="-">Обсуждаем фишки нового пайтона</h2><h3 id="pep-616-string-methods-to-remove-prefixes-and-suffixes">PEP 616 - String methods to remove prefixes and suffixes</h3><p>В <strong>Python 3.9</strong>, <a href="https://www.python.org/dev/peps/pep-0616/">PEP-616</a> добавили два новых метода для работы со строками:</p><ul><li>str.removeprefix</li><li>str.removesuffix</li></ul><p>Теперь вы можете реализовать функцию по тримингу кавычек в пару строк, ну ничоси:</p><pre><code class="language-python">def strip_quotes(text):

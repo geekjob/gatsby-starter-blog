@@ -1,11 +1,7 @@
 ---
 title: "Управляем console.log"
 date: "2016-12-19T14:03:13.000Z"
-description: "Метод { inspect } в Nodejs
-Допустим есть такой объект (в нашем случае функция) и мы хотим вывести
-console.log результата:
-
-const"
+description: "Метод { inspect } в Nodejs Допустим есть такой объект (в нашем случае функция) и мы хотим вывести console.log результата:  const"
 ---
 
 <h4>Метод { <strong>inspect } </strong>в Nodejs</h4>

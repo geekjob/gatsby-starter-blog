@@ -1,10 +1,7 @@
 ---
 title: "Прорблемы установки Nodejs"
 date: "2016-08-17T13:36:23.000Z"
-description: "Последней версии в Docker на Centos
-В докере на Centos я ставлю последнюю версию Nodejs следующим образом:
-
-RUN curl --silent --"
+description: "Последней версии в Docker на Centos В докере на Centos я ставлю последнюю версию Nodejs следующим образом:  RUN curl --silent --"
 ---
 
 <h4>Последней версии в Docker на Centos</h4>

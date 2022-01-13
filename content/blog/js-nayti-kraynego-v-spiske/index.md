@@ -1,11 +1,7 @@
 ---
 title: "Найти крайнего в списке"
 date: "2018-02-14T02:18:01.000Z"
-description: "Last in list. Hacks and tricks with Array in JS
-
-
-
-Сегодня пара слов про работу с массивами в JS. В целом работа с массивами (ak"
+description: "Last in list. Hacks and tricks with Array in JS    Сегодня пара слов про работу с массивами в JS. В целом работа с массивами (ak"
 ---
 
 <h4>Last in list. Hacks and tricks with Array in JS</h4>

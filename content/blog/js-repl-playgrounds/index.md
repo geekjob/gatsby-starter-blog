@@ -1,12 +1,7 @@
 ---
 title: "Обзор JS REPL playgrounds"
 date: "2019-02-19T18:17:56.000Z"
-description: "И один для PHP
-Небольшой обзор разных playground инструментов для быстрого запуска кода и
-проверки гипотез.
-
-Browser/DevTools
-Об"
+description: "И один для PHP Небольшой обзор разных playground инструментов для быстрого запуска кода и проверки гипотез.  Browser/DevTools Об"
 ---
 
 <h4>И один для PHP</h4>

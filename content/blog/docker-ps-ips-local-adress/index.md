@@ -1,10 +1,7 @@
 ---
 title: "Выводим IP адреса в docker ps"
 date: "2021-07-27T15:31:36.000Z"
-description: "Мне нужно иногда получать локальные адреса докер контейнеров. Да, есть команда,
-для получения такового:
-
-$ docker inspect -f '{{"
+description: "Мне нужно иногда получать локальные адреса докер контейнеров. Да, есть команда, для получения такового:  $ docker inspect -f '{{"
 ---
 
 <p>Мне нужно иногда получать локальные адреса докер контейнеров. Да, есть команда, для получения такового:</p><pre><code class="language-bash">$ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $container_id</code></pre><p>Но каждый раз такое набирать, да еще и помнить...</p><p>Да, можно сделать алиас или функцию:</p><pre><code class="language-bash">#!/usr/bin/env bash

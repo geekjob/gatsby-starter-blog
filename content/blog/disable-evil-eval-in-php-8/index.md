@@ -1,10 +1,7 @@
 ---
 title: "Evil eval in PHP 8"
 date: "2021-08-04T19:21:11.000Z"
-description: "Запрещаем конструкцию eval или как я написал расширение из 2х строк кода на С
-(ну почти 2х строк :))
-
-Собственно задача - запрет"
+description: "Запрещаем конструкцию eval или как я написал расширение из 2х строк кода на С (ну почти 2х строк :))  Собственно задача - запрет"
 ---
 
 <p>Запрещаем конструкцию eval или как я написал расширение из 2х строк кода на С (ну почти 2х строк :))</p><p>Собственно задача - запретить "функцию" eval. Да да, все верно, я взял в кавычки, так как eval - это не функция, а языковая конструкция.</p><p>Все опасные функции можно выключить используя специальную директиву в файле php.ini, но не инструкции. Eval выключить через php.ini нельзя, увы.</p><p>Про особенности директивы можно прочитать в короткой заметке:</p>- <a class="kg-bookmark-container" href="/overload-php-functions/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Override internal PHP functions</div><div class="kg-bookmark-description">Переписать функцию PHP без специальных расширений и отладочных инструментов.Возможно ли? Спйолер: Да. Но есть нюанс. Сначала нужно функцию, которую хочется переопределить стереть. Асделать это можно через php.ini файл, вписав функцию в директиву: disable_functions &#x3D; Для примера возьмем функцию …</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Geekjob Tech</span><span class="kg-bookmark-publisher">FullStack CTO</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://tech.geekjob.ru/content/images/2021/07/--------------2021-07-28---23.54.32.png"></div></a> <br/>

@@ -1,10 +1,7 @@
 ---
 title: "Optional Chaining in PHP"
 date: "2020-06-29T11:04:09.000Z"
-description: "Есть ли возможность?
-В JS есть такая штука как Optional Chaining. Про эту фичу есть в заметке
-
-JS/ES2020: Optional Chainingand N"
+description: "Есть ли возможность? В JS есть такая штука как Optional Chaining. Про эту фичу есть в заметке  JS/ES2020: Optional Chainingand N"
 ---
 
 <h2 id="-">Есть ли возможность?</h2><p>В JS есть такая штука как Optional Chaining. Про эту фичу есть в заметке</p>- <a class="kg-bookmark-container" href="/js-optional-chainingand-nullish-coalescing/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">JS/ES2020: Optional Chainingand Nullish Coalescing</div><div class="kg-bookmark-description">На дворе 2020 год, а в ES2020 уже есть 2 долгожданные фичи, которые облегчатработу. Но самое интересное, что эти фичи уже точно можно использовать впродакшене. Давайте рассмотрим их с примерами и поймем профит. Во первых - эти фичи уже доступны в браузерах: Т.е. эти фичи вполне можно использоват…</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Geekjob Tech</span><span class="kg-bookmark-publisher">Александр Майоров</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.gravatar.com/avatar/8f8f604430a6a2116749fad87c9c86d5?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x"></div></a> <br/>

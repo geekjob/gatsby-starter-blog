@@ -1,8 +1,7 @@
 ---
 title: "Проблемы sudo mc на macOS Big Sur"
 date: "2021-07-27T21:02:58.000Z"
-description: "На macOS Big Sur у меня появились проблемы при запуске Midnight Commander под
-рутом. С первого раза не запускается, выдавая ошиб"
+description: "На macOS Big Sur у меня появились проблемы при запуске Midnight Commander под рутом. С первого раза не запускается, выдавая ошиб"
 ---
 
 - <a class="kg-bookmark-container" href="/install-bash-v5-on-macos/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Ставим Bash5 на MacOS</div><div class="kg-bookmark-description">Я, может, из старой гвардии, поэтому привык к Bash и для меня zsh - менеекомфортный. Хотя я знаю что zsh мощен, его можно сделать по хипстерскипривлекательным и вообще... Но я все же имею опыт именно с Bash. Короче, на серверах , обычно по дефолту идет Bash 4й версии, а вот на MacOS онсовсем ста…</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Geekjob Tech</span><span class="kg-bookmark-publisher">FullStack CTO</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://tech.geekjob.ru/content/images/size/w100/2021/07/gj-logo-square.png"></div></a> <br/>

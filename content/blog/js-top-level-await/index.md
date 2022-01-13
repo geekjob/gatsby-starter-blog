@@ -1,9 +1,7 @@
 ---
 title: "JS/ES: Top-Level await"
 date: "2020-05-24T14:55:52.000Z"
-description: "Experimental support for 'Top-Level Await' just landed in Node.js core and
-Chrome Dev Tools, and Safari Web Inspector!
-Да да, в "
+description: "Experimental support for 'Top-Level Await' just landed in Node.js core and Chrome Dev Tools, and Safari Web Inspector! Да да, в "
 ---
 
 <h2 id="experimental-support-for-top-level-await-just-landed-in-node-js-core-and-chrome-dev-tools-and-safari-web-inspector-">Experimental support for 'Top-Level Await' just landed in Node.js core and Chrome Dev Tools, and Safari Web Inspector!</h2><p>Да да, в Node.js 14.3 уже есть возможность писать верхнеуровневые await , пока, правда, в экспериментальном режиме. А так же еще одна особенность: они доступны только в ESM модулях иначе не сработают. Если вы пользуетесь Babel, то вы можете уже использовать в продакшене эту фичу. Так же top level await были добавлены в TypeScript 3.8 еще в Феврале 2020 года. Так же эта возможность давно доступна в проекте <a href="https://deno.land/">Deno</a>.</p><p>Помимо Node.js эта фича языка доступан в <a href="https://developers.google.com/web/updates/2017/08/devtools-release-notes#await">Chrome Dev Tools</a> и Safari Web Inspector.</p><pre><code class="language-javascript">let data = (await fetch('https://geekjob.ru/vacancies?format=json')).data;

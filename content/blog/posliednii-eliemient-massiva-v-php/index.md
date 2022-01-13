@@ -1,13 +1,7 @@
 ---
 title: "Последний элемент массива в PHP"
 date: "2020-04-29T11:02:09.000Z"
-description: "Спортивное и полезное
-
-
-В статье будут не только полезные варианты, но и just for fun — показать что так
-тоже можно.
-
-Я как-то п"
+description: "Спортивное и полезное   В статье будут не только полезные варианты, но и just for fun — показать что так тоже можно.  Я как-то п"
 ---
 
 <h2 id="-">Спортивное и полезное</h2><p></p><p>В статье будут не только полезные варианты, но и just for fun — показать что так тоже можно.</p><p>Я как-то писал подробный разбор как получить последний элемент массива в JavaScript:</p>- <a class="kg-bookmark-container" href="/js-nayti-kraynego-v-spiske/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Найти крайнего в списке</div><div class="kg-bookmark-description">Last in list. Hacks and tricks with Array in JS Сегодня пара слов про работу с массивами в JS. В целом работа с массивами (akaсписками) в JavaScript — это большая тема. Что-то уже я когда-то описывал. Все водну большую статью пихать не хочется — я сам не люблю лонгриды. Данный постнавеян недав…</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://tech.geekjob.ru/favicon.png"><span class="kg-bookmark-author">Geekjob Tech</span><span class="kg-bookmark-publisher">Александр Майоров</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.gravatar.com/avatar/8f8f604430a6a2116749fad87c9c86d5?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x"></div></a> <br/>

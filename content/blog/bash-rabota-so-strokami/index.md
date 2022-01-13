@@ -1,11 +1,7 @@
 ---
 title: "Работа со строками в Bash"
 date: "2016-01-09T18:40:50.000Z"
-description: "Это памятка, т. к. периодически забываю.
-
-Извлечение подстроки
-${string:position} — с position до конца
-${string:position:length"
+description: "Это памятка, т. к. периодически забываю.  Извлечение подстроки ${string:position} — с position до конца ${string:position:length"
 ---
 
 <p><em>Это памятка, т. к. периодически забываю.</em></p>

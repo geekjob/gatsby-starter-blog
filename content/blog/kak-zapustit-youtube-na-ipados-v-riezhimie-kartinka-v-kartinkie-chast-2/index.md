@@ -1,9 +1,7 @@
 ---
 title: "Как запустить Youtube на iPadOS в режиме картинка в картинке. Часть 2"
 date: "2020-07-01T18:52:12.000Z"
-description: "Добавляем функцию "Открыть в Safari"
-В предыдущей статье я показал как создать команду для запуска ютуба в режиме
-картинка в кар"
+description: "Добавляем функцию "Открыть в Safari" В предыдущей статье я показал как создать команду для запуска ютуба в режиме картинка в кар"
 ---
 
 <h2 id="-safari">Добавляем функцию "Открыть в Safari"</h2><p>В предыдущей статье я показал как создать команду для запуска ютуба в режиме картинка в картинке.</p>- <a class="kg-bookmark-container" href="/kak-zapustit-youtube-na-ipados-v-riezhimie-kartinka-v-vkarinkie/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Как запустить Youtube на iPadOS в режиме картинка в картинке</div><div class="kg-bookmark-description">Создаем свою быструю команду на JavaScript

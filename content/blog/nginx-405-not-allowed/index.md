@@ -1,9 +1,7 @@
 ---
 title: "Nginx 405 Not Allowed"
 date: "2016-12-06T10:14:32.000Z"
-description: "POST файла на сервер с PHP
-Nginx выдает ошибку 405 Not Allowed, если для доступа к файлам используется
-POST, который запрещен дл"
+description: "POST файла на сервер с PHP Nginx выдает ошибку 405 Not Allowed, если для доступа к файлам используется POST, который запрещен дл"
 ---
 
 <h4>POST файла на сервер с PHP</h4>

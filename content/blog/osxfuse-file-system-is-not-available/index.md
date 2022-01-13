@@ -1,12 +1,7 @@
 ---
 title: "OSXFUSE file system is not available"
 date: "2017-09-28T20:00:08.000Z"
-description: "On Mac OS High Sierra. Or not?
-
-
-
-Если вдруг вы пользовались SSHFS на маке и обновились до последней версии, а она
-реально хорош"
+description: "On Mac OS High Sierra. Or not?    Если вдруг вы пользовались SSHFS на маке и обновились до последней версии, а она реально хорош"
 ---
 
 <h4>On Mac OS High Sierra. Or not?</h4>

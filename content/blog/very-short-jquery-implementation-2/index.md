@@ -1,10 +1,7 @@
 ---
 title: "Самая короткая реализация jQuery"
 date: "2016-08-09T22:44:58.000Z"
-description: "Эмуляция 3х функций
-var $ = document.querySelector.bind(document);
-Element.prototype.on = Element.prototype.addEventListener;
-El"
+description: "Эмуляция 3х функций var $ = document.querySelector.bind(document); Element.prototype.on = Element.prototype.addEventListener; El"
 ---
 
 <h4>Эмуляция 3х функций</h4>

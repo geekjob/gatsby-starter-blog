@@ -1,12 +1,7 @@
 ---
 title: "Math.ceil & Math.floor"
 date: "2018-02-07T14:58:50.000Z"
-description: "Tips & Tricks in JS
-
-
-
-Сегодня не про задачки, а про трюки в JS. Пример, как можно сократить запись
-Math.ceil и Math.floor. Не т"
+description: "Tips & Tricks in JS    Сегодня не про задачки, а про трюки в JS. Пример, как можно сократить запись Math.ceil и Math.floor. Не т"
 ---
 
 <h4>Tips &amp; Tricks in JS</h4>

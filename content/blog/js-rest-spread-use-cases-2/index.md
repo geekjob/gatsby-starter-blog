@@ -1,9 +1,7 @@
 ---
 title: "Юзкейсы rest-spread операторов #2"
 date: "2019-03-19T16:06:59.000Z"
-description: "Полезные трюки
-Я уже писал как-то про Юзкейсы …spread оператора
-[https://medium.com/@frontman/%D1%8E%D0%B7%D0%BA%D0%B5%D0%B9%D1%"
+description: "Полезные трюки Я уже писал как-то про Юзкейсы …spread оператора [https://medium.com/@frontman/%D1%8E%D0%B7%D0%BA%D0%B5%D0%B9%D1%"
 ---
 
 <h4>Полезные трюки</h4>

@@ -1,9 +1,7 @@
 ---
 title: "Russian AI Cup 2019"
 date: "2019-12-09T02:00:54.000Z"
-description: "На Node.js
-Наконец-то настал этот долгожданный день. Теперь в Russian AI Cup
-[https://russianaicup.ru/p/packs] можно использоват"
+description: "На Node.js Наконец-то настал этот долгожданный день. Теперь в Russian AI Cup [https://russianaicup.ru/p/packs] можно использоват"
 ---
 
 <h4>На Node.js</h4>

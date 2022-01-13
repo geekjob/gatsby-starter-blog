@@ -1,8 +1,7 @@
 ---
 title: "Библиотека Natasha"
 date: "2018-07-12T14:34:53.000Z"
-description: "ImportError: cannot import name ‘TagMorphTokenizer’ from ‘yargy.tokenizer’
-В своих проектах ( New.HR [https://newhr.ru], GeekJob"
+description: "ImportError: cannot import name ‘TagMorphTokenizer’ from ‘yargy.tokenizer’ В своих проектах ( New.HR [https://newhr.ru], GeekJob"
 ---
 
 <h4>ImportError: cannot import name ‘TagMorphTokenizer’ from ‘yargy.tokenizer’</h4>

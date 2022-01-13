@@ -1,9 +1,7 @@
 ---
 title: "Samsung выпустил JerryScript 1.0"
 date: "2016-09-11T11:59:32.000Z"
-description: "Облегчённый движок JavaScript
-JerryScript— это облегчённый движок JavaScript 5.1, предназначенный для
-устройств интернета вещей "
+description: "Облегчённый движок JavaScript JerryScript— это облегчённый движок JavaScript 5.1, предназначенный для устройств интернета вещей "
 ---
 
 <h4>Облегчённый движок JavaScript</h4>

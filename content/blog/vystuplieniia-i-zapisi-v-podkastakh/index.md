@@ -1,11 +1,7 @@
 ---
 title: "Выступления и записи в подкастах"
 date: "2020-04-27T20:41:18.000Z"
-description: "Здесь собрана коллекция выступлений и записей, в которых принимал участие CTO
-Geekjob - Александр Майоров
-
-Шоу на ютубе
-Frontend"
+description: "Здесь собрана коллекция выступлений и записей, в которых принимал участие CTO Geekjob - Александр Майоров  Шоу на ютубе Frontend"
 ---
 
 <p>Здесь собрана коллекция выступлений и записей, в которых принимал участие CTO Geekjob - Александр Майоров</p><h2 id="-">Шоу на ютубе</h2>- <a href="https://soundcloud.com/frontend-weekend" title="Frontend Weekend" target="_blank" style="color: #cccccc; text-decoration: none;">Frontend Weekend</a> <br/>

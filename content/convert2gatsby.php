@@ -8,10 +8,12 @@ $data = json_decode(file_get_contents(__DIR__ . '/dump.json'), true);
 foreach ($data['db'][0]['data']['posts'] as $post)
 {
     if ($post['status'] != 'published') continue;
+    if ($post['slug'] == 'js-emoji') continue;
+    if ($post['slug'] == 'untiled-2') continue;
 
     $record = [
         'text' => $post['html'],
-        'description' => mb_substr($post['plaintext'], 0, 128),
+        'description' => mb_substr(str_replace("\n", ' ', $post['plaintext']), 0, 128),
         'date' => $post['published_at'],
         'title' => $post['title'],
         'slug' => $post['slug']
@@ -19,9 +21,8 @@ foreach ($data['db'][0]['data']['posts'] as $post)
 
     unset($post);
 
-    $dir = __DIR__ . '/blogs/' . $record['slug'];
-    if (!file_exists($dir))
-        mkdir($dir);
+    $dir = __DIR__ . '/blog/' . $record['slug'];
+    if (!file_exists($dir)) mkdir($dir);
 
 
     $record['text'] = preg_replace_callback(

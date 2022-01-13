@@ -1,9 +1,7 @@
 ---
 title: "How To Swap Two Values Without Temporary Variables Using JavaScript"
 date: "2016-07-18T14:45:39.000Z"
-description: "A complete guide with answers for the interview
-Photo by Artem Sapegin
-[https://unsplash.com/@sapegin?utm_source=unsplash&utm_me"
+description: "A complete guide with answers for the interview Photo by Artem Sapegin [https://unsplash.com/@sapegin?utm_source=unsplash&utm_me"
 ---
 
 <h4>A complete guide with answers for the interview</h4>

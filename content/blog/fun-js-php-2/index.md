@@ -1,12 +1,7 @@
 ---
 title: "Fun JS/PHP #2"
 date: "2018-01-20T14:11:14.000Z"
-description: "JS versus PHP battle
-
-
-
-Сегодня будет небольшой баттл между PHP и JS. Баттл не по скорости и тому, кто
-круче, а просто пример то"
+description: "JS versus PHP battle    Сегодня будет небольшой баттл между PHP и JS. Баттл не по скорости и тому, кто круче, а просто пример то"
 ---
 
 <h4>JS versus PHP battle</h4>

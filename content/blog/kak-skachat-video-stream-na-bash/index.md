@@ -1,9 +1,7 @@
 ---
 title: "Как скачать видеострим на Bash"
 date: "2019-12-06T17:32:05.000Z"
-description: "Download and combine m3u *.ts to .mp4
-Бывает такое: была запись в приватном канале (допустим семинар). Затем тебе же
-открывают д"
+description: "Download and combine m3u *.ts to .mp4 Бывает такое: была запись в приватном канале (допустим семинар). Затем тебе же открывают д"
 ---
 
 <h4>Download and combine m3u *.ts to .mp4</h4>

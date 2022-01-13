@@ -1,20 +1,7 @@
 ---
 title: "Fun PHP #3"
 date: "2018-01-25T12:07:46.000Z"
-description: "Значения по ссылке
-
-
-
-Дано:
-
-<?php
-
-function getCount(&$a) { return count($a); }
-
-$cnt = getCount( $foo );
-var_dump($cnt);
-
-$cnt"
+description: "Значения по ссылке    Дано:  <?php  function getCount(&$a) { return count($a); }  $cnt = getCount( $foo ); var_dump($cnt);  $cnt"
 ---
 
 <h4>Значения по ссылке</h4>

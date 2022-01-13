@@ -1,12 +1,7 @@
 ---
 title: "Юзкейсы …spread оператора"
 date: "2016-12-24T12:59:15.000Z"
-description: "Трюки с ES2016
-Расширение объекта
-const config = { ...defaults, ...userSettings }
-
-Клонирование объекта
-const clone = { ...sourc"
+description: "Трюки с ES2016 Расширение объекта const config = { ...defaults, ...userSettings }  Клонирование объекта const clone = { ...sourc"
 ---
 
 <h4>Трюки с ES2016</h4>

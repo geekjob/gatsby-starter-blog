@@ -1,10 +1,7 @@
 ---
 title: "Runtime Strong типизация в Javascript"
 date: "2016-01-26T10:43:19.000Z"
-description: "Пример реализации RTTS на TypeScript
-
-Предвкушая релиз Angular2 хочется больше понять мотивацию разработчиков и понять
-как и что"
+description: "Пример реализации RTTS на TypeScript  Предвкушая релиз Angular2 хочется больше понять мотивацию разработчиков и понять как и что"
 ---
 
 <h2 id="-rtts-typescript">Пример реализации RTTS на TypeScript</h2>

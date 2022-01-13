@@ -1,10 +1,7 @@
 ---
 title: "Защита Email от Spamer’ов"
 date: "2019-12-03T20:01:17.000Z"
-description: "Update
-В предыдущем посте я показал как прятать имейлы от спамеров на чистом CSS:
-
-Защита Email от Spamer’ов на CSSNojs, only CS"
+description: "Update В предыдущем посте я показал как прятать имейлы от спамеров на чистом CSS:  Защита Email от Spamer’ов на CSSNojs, only CS"
 ---
 
 <h3 id="update">Update</h3><p>В предыдущем посте я показал как прятать имейлы от спамеров на чистом CSS:</p>- <a class="kg-bookmark-container" href="/zashita-ot-spamerov-na-pure-css/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Защита Email от Spamer’ов на CSS</div><div class="kg-bookmark-description">Nojs, only CSS!
