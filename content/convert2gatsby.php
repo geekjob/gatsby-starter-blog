@@ -13,9 +13,25 @@ foreach ($data['db'][0]['data']['posts'] as $post)
 
     $record = [
         'text' => $post['html'],
-        'description' => mb_substr(str_replace("\n", ' ', $post['plaintext']), 0, 128),
+        'description' => mb_substr(
+            str_replace('"', '',
+                str_replace(
+                    "\n", ' ',
+                    $post['plaintext']
+                )
+            ),
+            0, 128
+        ),
         'date' => $post['published_at'],
-        'title' => $post['title'],
+        'title' => mb_substr(
+            str_replace('"', '',
+                str_replace(
+                    "\n", ' ',
+                    $post['title']
+                )
+            ),
+            0, 128
+        ),
         'slug' => $post['slug']
     ];
 

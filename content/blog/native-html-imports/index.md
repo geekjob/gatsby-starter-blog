@@ -1,5 +1,5 @@
 ---
-title: ""Native" HTML Imports"
+title: "Native HTML Imports"
 date: "2019-04-19T16:27:44.000Z"
 description: "Рабочие HTML импорты Этот микропост скорее заметки на полях для себя, чтоб не протерять. Если хочется заимпортить HTML в страниц"
 ---

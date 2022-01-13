@@ -1,6 +1,5 @@
 ---
-title: "JS/ES2020: Optional Chaining
-and Nullish Coalescing"
+title: "JS/ES2020: Optional Chaining and Nullish Coalescing"
 date: "2020-06-13T19:23:37.000Z"
 description: "На дворе 2020 год, а в ES2020 уже есть 2 долгожданные фичи, которые облегчат работу. Но самое интересное, что эти фичи уже точно"
 ---
