@@ -1,0 +1,35 @@
+---
+title: "Array.prototype.flat polyfill"
+date: "2019-06-12T16:30:04.000Z"
+description: "Полифилим правильно
+Давеча накидал вариант полифила для [].flat. Показал быстрое решение, но если
+вникать в детали, оно не очень"
+---
+
+<h4>Полифилим правильно</h4>
+<p>Давеча накидал вариант полифила для <code>[].flat</code> . Показал быстрое решение, но если вникать в детали, оно не очень верное. Если заглянуть в спецификацию, то увидим что у данного метода есть аргумент — depth.</p>
+<p>Собственно на этот косяк мне указал <a href="https://medium.com/u/ac81ad26a141" target="_blank" rel="noopener noreferrer">Roman Dvornov</a>, увидев мой полифил. Так же Рома предложил вариант еще короче. Пойдем по порядку, мой вариант был таким:</p>
+<pre><strong>if</strong> (!<strong><em>Array</em></strong>.prototype.flat) <strong><em>Array</em></strong>.prototype.flat = <strong>function</strong> () {<br><strong>return</strong> (<strong>function</strong> <em>f</em>(arr) {<br><strong>return</strong> arr.reduce(<br>         (a, v) <strong>=&gt;</strong><br><strong><em>Array</em></strong>.isArray(v)<br>               ? a.concat(<em>f</em>(v))<br>               : a.concat(  v )<br>         , []<br>      )<br>   })(<strong>this</strong>)<br>};</pre>
+<pre><code>// Usage<br>[1,2,3,[1,2,3,4, [2,3,4]]].flat()</code></pre>
+<pre><code>// [1, 2, 3, 1, 2, 3, 4, 2, 3, 4]</code></pre>
+<p>Рома верно заметил, что тут лишняя функция. Можно ее убрать и получим:</p>
+<pre><strong><em>Array</em></strong>.prototype.flat = <strong>function</strong> () {<br><strong>return</strong> <strong>this</strong>.reduce(<br>         (a, v) <strong>=&gt;</strong><br><strong><em>Array</em></strong>.isArray(v)<br>               ? a.concat(v.flat())<br>               : a.concat(v)<br>         , []<br>      )<br>};</pre>
+<p>Когда я пробовал такой (похожий вариант) похоже я где-то опечатался, так как у меня вызывало это бесконечную рекурсию. Возможно я ошибся и что-то напутал, поэтому я и сделал решение с карированием. Так что вариант реально можно упростить. Но если возвращаться именно к полифилу, то правильнее было бы реализовать его полностью вместе с флагом depth. На MDN уже есть вариант готового полифила:</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#Polyfill">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#Polyfill</a></p>
+<pre><code><strong>if</strong> (!<strong>Array</strong>.prototype.flat) {<br><strong>Array</strong>.prototype.flat = <strong>function</strong>() {<br><strong>var</strong> depth = <strong>arguments</strong>[0];<br>    depth = depth === <strong>undefined</strong> ? 1 : <strong>Math</strong>.floor(depth);<br><strong>if</strong> (depth &lt; 1) <strong>return</strong> <strong>Array</strong>.prototype.slice.call(<strong>this</strong>);<br><strong>return</strong> (<strong>function</strong> flat(arr, depth) {<br><strong>var</strong> len = arr.length &gt;&gt;&gt; 0;<br><strong>var</strong> flattened = [];<br><strong>var</strong> i = 0;<br><strong>while</strong> (i &lt; len) {<br><strong>if</strong> (i in arr) {<br><strong>var</strong> el = arr[i];<br><strong>if</strong> (<strong>Array</strong>.isArray(el) &amp;<strong>&amp;</strong> depth &gt; 0)<br>            flattened = flattened.concat(flat(el, depth - 1));<br>          else flattened.push(el);<br>        }<br>        i++;<br>      }<br><strong>return</strong> flattened;<br>    })(<strong>this</strong>, depth);<br>  };<br>}</code></pre>
+<p>Вообще не самый красивый и оптимальный код, как по мне и я согласен с Романом, что все это можно было бы сделать проще (как минимум используя меньше кода). Рома предложил такой вариант:</p>
+<pre><strong>if</strong> (!<strong><em>Array</em></strong>.prototype.flat) <strong><em>Array</em></strong>.prototype.flat = function (depth = 1) {<br>   depth = <strong><em>isNaN</em></strong>(depth) ? 0 : <strong><em>Math</em></strong>.floor(depth);<br><strong>if</strong> (depth &lt; 1) return this.slice();<br><strong>if</strong> (depth === 1) return [].concat(...this);<br><strong>return</strong> [].concat(...<strong>this</strong>.map(v =&gt; <strong><em>Array</em></strong>.isArray(v) ? v.flat(depth - 1) : v));<br>};</pre>
+<p>Если отрефакторить этот код, то можно сделать его еще чуточку короче:</p>
+<pre><strong>if</strong> (!<strong><em>Array</em></strong>.prototype.flat)<br><strong><em>Array</em></strong>.prototype.flat = <strong>function</strong> (depth = 1) {<br><strong>return</strong> [].concat(<br>      ...((<strong><em>isNaN</em></strong>(depth) ? 1 : <strong><em>Math</em></strong>.floor(depth)) &lt; 2)<br>         ? <strong>this</strong><br>         : <strong>this</strong>.map(v <strong>=&gt;</strong> <strong><em>Array</em></strong>.isArray(v) <strong>?</strong> v.flat(depth - 1) <strong>:</strong> v)<br>   )<br>};</pre>
+<p>Так как согласно документации по дефолту depth = 1, то любое невалидное значение я бы предложил воспринимать как дефолтное, т.е. = 1. Поэтому в любой непонятной ситуации depth=1. Но!</p>
+<p>Но согласно тому же полифилу от Мозиллы и спецификации в случае если передается аргумент меньше 1, то нужно вернуть копию массива как есть:</p>
+<pre><code><strong>if</strong> (depth &lt; 1) <strong>return</strong> <strong>Array</strong>.prototype.slice.call(<strong>this</strong>);</code></pre>
+<p>Поэтому вариант от Романа более точный и верный. Итого, имеем финальный правильный вариант, соответствующей спеке:</p>
+<pre><strong>if</strong> (!<strong><em>Array</em></strong>.prototype.flat)<br><strong><em>Array</em></strong>.prototype.flat = <strong>function</strong> (depth = 1) {<br>   depth = <em>isNaN</em>(depth) ? 0 : <strong><em>Math</em></strong>.floor(depth);<br><strong>if</strong> (depth &lt; 1) <strong>return</strong> <strong>this</strong>.slice();<br><strong>return</strong> [].concat(<br>      ...(depth &lt; 2)<br>         ? <strong>this</strong><br>         : <strong>this</strong>.map(v <strong>=&gt;</strong> <strong><em>Array</em></strong>.isArray(v) <strong>?</strong> v.flat(depth - 1) <strong>:</strong> v)<br>   )<br>};</pre>
+<p>Итого такое вот UPD по теме: как сделать плоским массив ?</p>
+<p>Я понимаю почему в MDN такой большой код — он сделан в ES5 и должен работать в старых IE. Но если у вас ES6+, то можно полифилить используя современный синтаксис. Спасибо Роману за ревью и примеры.</p>
+<p>Итоговый вариант полифила я добавил в русскую версию документации на MDN:</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#Polyfill">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#Polyfill</a></p>
+
+
+
