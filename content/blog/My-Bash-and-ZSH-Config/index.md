@@ -1,6 +1,6 @@
 ---
 title: "My Bash and ZSH Config"
-date: "2021-09-07T12:12:12.00Z"
+date: "2021-08-12T12:12:12.00Z"
 description: "Simple configurations for Bash and ZSH. These settings have been made for themselves. But it can be useful to someone else"
 ---
 
