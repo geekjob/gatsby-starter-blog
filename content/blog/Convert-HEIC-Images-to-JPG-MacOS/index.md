@@ -14,7 +14,7 @@ description: "Добавлем меню в Finder"
 
 Я добавил специальное меню в Finder и расскажу как это сделать.
 
-![geekjob](img1.png)
+![geekjob](https://raw.githubusercontent.com/geekjob/gatsby-starter-blog/main/content/blog/Convert-HEIC-Images-to-JPG-MacOS/img1.png)
 
 Для конвертации HEIC в JPG нам нужен Imagemagick. Ставим через homebrew:
 
