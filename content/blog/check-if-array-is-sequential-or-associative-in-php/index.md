@@ -1,6 +1,6 @@
 ---
 title: "Check if array is sequential or associative in PHP"
-date: "2021-09-07T12:12:12.00Z"
+date: "2021-11-01T12:12:12.00Z"
 description: "Now we have a simple way in PHP 8.1"
 ---
 
