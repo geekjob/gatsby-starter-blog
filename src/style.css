@@ -319,6 +319,16 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+
+img {
+  width: 100%
+}
+
+footer {
+  font-size: .5em
+}
+
+
 /* Media queries */
 
 @media (max-width: 42rem) {
