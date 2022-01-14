@@ -1,7 +1,7 @@
 ---
 title: "Transfer docker image to another server"
 date: "2022-01-14T22:22:22.00Z"
-description: "Как перенести существующий докер контейнер на ругой сервер"
+description: "Как перенести существующий докер контейнер на другой сервер"
 ---
 
 Бывают случаи когда нужно сделать трансфер самого контейнера (не образа). Делается это очень просто:
@@ -32,7 +32,7 @@ exit
 
 ```bash
 # docker commit [CONTAINER_ID] [new_image_name]
-docker commit deddd39fa163 ubuntu-with-php8
+docker commit deffa40fa274 ubuntu-with-php8
 ```
 
 Теперь у вас есть контейнер, который так же можно переместить на другой сервер.
