@@ -27,15 +27,17 @@ convert -verbose -density 300 -trim "$f" -background white -flatten -quality 100
 convert -verbose step-1.jpg fg.png -composite step-2.png
 
 # Рандомно поворачиваем на небольшой угол, буд-то бы документ криво лежал в сканере
-angle=$(( ( RANDOM % 10 )  + 1 ))
+angle=$[ RANDOM % 4 + 1 ]
 echo "ANGLE=$angle"
 convert -verbose step-2.png -background '#000000' -rotate 0.$angle step-2.jpg
 
-# Обратно превращаем картинку в PDF (заменяем оригинал!)
-convert -verbose step-2.jpg "$f"
+
+# Обратно превращаем картинку в PDF
+newfile="${f%%.pdf}-scan.pdf"
+convert -verbose step-2.jpg "$newfile"
 
 # эта строчка для MacOS, позволяет сразу увидеть результат
-open "$f"
+open "$newfile"
 
 # чистим за собой от временных файлов
 rm -v step-1.jpg step-2.jpg step-2.png
