@@ -1,6 +1,6 @@
 ---
 title: "ImageMagick: emulate the effect of a scanned document"
-date: "2019-01-03T23:33:29.00Z"
+date: "2022-02-01T02:02:02.00Z"
 description: "Автоматизируем работу фотошопера. Эмулируем эффект отсканированного PDF документа"
 ---
 
