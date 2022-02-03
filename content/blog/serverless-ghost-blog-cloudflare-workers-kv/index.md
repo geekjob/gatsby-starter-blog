@@ -204,7 +204,7 @@ fetch('https://stat-blog.geekjob.workers.dev/?k='+pageid)
 
 Результат вы можете видеть на этой странице если все отработало штатно, без ошибок.
 
-Больше информации в документации:
+### Больше информации в документации:
 
 <figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://developers.cloudflare.com/workers/reference/apis/kv/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">KV</div><div class="kg-bookmark-description">Use Cloudflare’s APIs and edge network to build secure, ultra-fast applications.</div><div class="kg-bookmark-metadata"><span class="kg-bookmark-publisher">Cloudflare Workers logo (horizontal)The horizontal wordmark logo for the Cloudflare Workers brand.</span></div></div><div class="kg-bookmark-thumbnail"></div></a></figure>
 <br>
