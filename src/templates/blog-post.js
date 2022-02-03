@@ -29,6 +29,9 @@ const BlogPostTemplate = ({ data, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        <div id="comment-block">
+            <a href="//t.me/c/1502086110/3">💬 Обсуждение</a>
+        </div>
         <hr />
         <footer>
           <Bio />

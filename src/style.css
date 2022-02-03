@@ -329,6 +329,13 @@ footer {
 }
 
 
+#comment-block {
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+
 /* Media queries */
 
 @media (max-width: 42rem) {
