@@ -93,27 +93,20 @@ The type parameter can be any of:
 ```js
 addEventListener('fetch',e=>{e.respondWith(handleRequest(e.request))});
 
-const res = json =>
-new Response(
-JSON.stringify(json),
-{
-status: 200,
-headers: [
-['Content-Type', 'application/json'],
-[
-'Access-Control-Allow-Origin',
-'https://tech.geekjob.ru'
-]
-]
-}
-)
-;
-
+const res = json => new Response(JSON.stringify(json), {
+	status: 200,
+	headers: [
+		['Content-Type', 'application/json'],
+		[
+			'Access-Control-Allow-Origin',
+			'https://tech.geekjob.ru'
+		]
+	]
+});
 
 async function handleRequest(req) {
 let url = new URL(req.url);
 let key = url.searchParams.get('k');
-
 
 if (!key)
     return res({ error: true, message: 'Bad key' });
@@ -213,4 +206,7 @@ fetch('https://stat-blog.geekjob.workers.dev/?k='+pageid)
 
 Больше информации в документации:
 
-<figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://developers.cloudflare.com/workers/reference/apis/kv/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">KV</div><div class="kg-bookmark-description">Use Cloudflare’s APIs and edge network to build secure, ultra-fast applications.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://www.cloudflare.com/img/favicon/apple-touch-icon.png"><span class="kg-bookmark-publisher">Cloudflare Workers logo (horizontal)The horizontal wordmark logo for the Cloudflare Workers brand.</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://developers.cloudflare.com/workers/svg/github.svg"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://developers.cloudflare.com/workers/quickstart"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Quick Start</div><div class="kg-bookmark-description">Use Cloudflare’s APIs and edge network to build secure, ultra-fast applications.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://www.cloudflare.com/img/favicon/apple-touch-icon.png"><span class="kg-bookmark-publisher">Cloudflare Workers logo (horizontal)The horizontal wordmark logo for the Cloudflare Workers brand.</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://developers.cloudflare.com/workers/svg/github.svg"></div></a></figure>
+<figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://developers.cloudflare.com/workers/reference/apis/kv/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">KV</div><div class="kg-bookmark-description">Use Cloudflare’s APIs and edge network to build secure, ultra-fast applications.</div><div class="kg-bookmark-metadata"><span class="kg-bookmark-publisher">Cloudflare Workers logo (horizontal)The horizontal wordmark logo for the Cloudflare Workers brand.</span></div></div><div class="kg-bookmark-thumbnail"></div></a></figure>
+<br>
+<br>
+<figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://developers.cloudflare.com/workers/quickstart"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Quick Start</div><div class="kg-bookmark-description">Use Cloudflare’s APIs and edge network to build secure, ultra-fast applications.</div><span class="kg-bookmark-publisher">Cloudflare Workers logo (horizontal)The horizontal wordmark logo for the Cloudflare Workers brand.</span></div></div></div></a></figure>
