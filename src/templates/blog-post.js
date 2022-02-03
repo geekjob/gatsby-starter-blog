@@ -31,7 +31,7 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <div id="comment-block">
-            <a href="//t.me/c/1502086110/3">💬 Обсуждение</a>
+            <a href="https://t.me/+UC6ht6klzXAzNTM6">💬 Обсуждение</a>
         </div>
         <hr />
         <footer>
