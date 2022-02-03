@@ -32,3 +32,13 @@ mogrify -format jpg *.heic
 
 ## Finder Extension через Automator
 ...
+
+Открываем Automator и создаем новое приложение. Нам нужен раздел Фйалы и папки.
+Выбираем "Получить выбранные объекты Finder"
+А далее вставляем блок shell-script
+
+В итоге эти все действия можно уместить на 1м скриншоте:
+![geekjob](https://raw.githubusercontent.com/geekjob/gatsby-starter-blog/main/content/blog/Convert-HEIC-Images-to-JPG-MacOS/img2.png)
+
+Теперь у вас появился новый пункт меню в Finder, в разделе "Быстрые действия"
+
