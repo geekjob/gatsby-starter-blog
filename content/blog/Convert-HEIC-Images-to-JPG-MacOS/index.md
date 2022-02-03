@@ -31,8 +31,6 @@ mogrify -format jpg *.heic
 Далее создаем скрипт через Automator
 
 ## Finder Extension через Automator
-...
-
 Открываем Automator и создаем новое приложение. Нам нужен раздел Фйалы и папки.
 Выбираем "Получить выбранные объекты Finder"
 А далее вставляем блок shell-script
@@ -42,3 +40,4 @@ mogrify -format jpg *.heic
 
 Теперь у вас появился новый пункт меню в Finder, в разделе "Быстрые действия"
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QNzGi-BLz-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
